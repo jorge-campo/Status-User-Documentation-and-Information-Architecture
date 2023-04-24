@@ -2,13 +2,13 @@
 
 # Project information
 site_name: 'Status user documentation and information architecture'
-site_url: https://help.status.im/en/
+site_url: https://help.status.im/
 site_author: 'Status Research & Development GmbH'
 site_description: 'Status app user documentation'
 
 # Project directories
-docs_dir: '../docs/'
-site_dir: '../generated/'
+docs_dir: './docs/'
+site_dir: './generated/'
 
 # Repository
 repo_name: 'Status user documentation and information architecture'
@@ -21,7 +21,7 @@ copyright: 'Status Research & Development GmbH'
 # Theme configuration
 theme:
     name: material
-    custom_dir: '../../overrides/'
+    custom_dir: './overrides/'
     logo: assets/images/status-logo-320x320.png
     favicon: assets/images/status-logo-32x32.png
     language: en
@@ -113,24 +113,13 @@ markdown_extensions:
 extra_css:
   - assets/stylesheets/extra.css
 
-  # Footer icons and links
-  social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/ethstatus
-      name: Status on Twitter
-    - icon: material/web
-      link: https://status.im
-      name: Status website
-    - icon: material/chat
-      link: https://join.status.im/chat/public/status
-
 # Plugins
 plugins:
   - search:
       lang: en
   - git-committers:
-      docs_path: docs/en/
-      repository: status-im/help.status.im
+      docs_path: docs/
+      repository: status-im/Status-User-Documentation-and-Information-Architecture
       branch: develop
   - git-revision-date
   - git-revision-date-localized:
@@ -140,5 +129,5 @@ plugins:
 # Page tree (for the hamburger menu navigation)
 nav:
   - Start: index.md
-  - Section 1:
-  - Section 2:
+  - Section 1: index.md
+  - Section 2: index.md
