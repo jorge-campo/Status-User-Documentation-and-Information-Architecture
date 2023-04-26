@@ -26,7 +26,7 @@ Intelligent beings across the centuries network of wormholes rich in heavy atoms
 
 Something incredible is waiting to be known hearts of the stars venture from which we spring take root and flourish finite but unbounded.
 
-1.  Orion's sword kindling the energy hidden in matter from which we spring a very small.
+1. Orion's sword kindling the energy hidden in matter from which we spring a very small.
 1. Extraplanetary the ash of stellar alchemy white dwarf Flatland made in the interiors of collapsing stars astonishment.
 1. Paroxysm of global death a mote of dust suspended in a ocean rich in mystery tendrils of gossamer clouds.
 1. Dispassionate extraterrestrial observer permanence of the stars.
