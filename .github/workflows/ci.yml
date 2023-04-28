@@ -15,7 +15,11 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
-      - uses: actions/cache@v2
+      - name: Clear Cache
+        run: |
+          rm -rf node_modules
+          yarn cache clean
+      - uses: actions/cache@v3
         with:
           path: |
             node_modules
@@ -24,7 +28,7 @@ jobs:
             ${{ runner.os }}-node-
       - run: apt-get install pngquant 
       - run: pip install git+ssh://git@github.com/status-im/mkdocs-material-insiders.git
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           node-version: '16'
       - run: mkdocs gh-deploy --force
