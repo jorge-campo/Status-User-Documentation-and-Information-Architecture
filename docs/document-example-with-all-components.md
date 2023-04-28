@@ -35,20 +35,20 @@ Something incredible is waiting to be known hearts of the `stars` venture from w
         - A mote of dust suspended in a sunbeam kindling the energy hidden in matter bits of moving fluff :mobile-sticker: **Venture**.
         </br>{== **[14]** ==}
     1. Paroxysm of global death a mote of dust suspended in a ocean rich in mystery tendrils of gossamer :mobile-mute: **Stars**.
-    </br>:one::three:
+    {== **[15]** ==}
     
     ![This is a screenshot description for screen readers](./media/screen.png)
-    {== **[15]** ==}
+    {== **[16]** ==}
 
 === "Desktop"
 
-    1. Orion's sword kindling the :mobile-reaction: **Energy** {== **[14]** ==} hidden in matter from which we spring a very small.
+    1. Orion's sword kindling the :mobile-reaction: **Energy** {== **[13]** ==} hidden in matter from which we spring a very small.
     1. Extraplanetary the ash of stellar alchemy white dwarf :mobile-messages: **Flatland** made in the interiors of collapsing stars astonishment.
     1. Paroxysm of global death a mote of dust suspended in a ocean rich in mystery tendrils of gossamer clouds.
     1. Dispassionate extraterrestrial observer permanence of the :mobile-mute: **Stars**.
     
     !!! note
-        Sea of Tranquility courage of our questions bits of moving fluff and billions upon billions upon billions upon billions upon billions upon billions upon billions. {== **[16]** ==}
+        Sea of Tranquility courage of our questions bits of moving fluff and billions upon billions upon billions upon billions upon billions upon billions upon billions. {== **[17]** ==}
 
 === "Web"
 
@@ -58,7 +58,7 @@ Something incredible is waiting to be known hearts of the `stars` venture from w
     1. Dispassionate extraterrestrial observer permanence of the :mobile-mute: **Stars**.
  
 !!! tip
-    At the edge of forever at the edge of forever a still more glorious dawn awaits prime number. {== **[17]** ==}
+    At the edge of forever at the edge of forever a still more glorious dawn awaits prime number. {== **[18]** ==}
 
 ## Second tasks
 
@@ -67,21 +67,21 @@ Muse about dream of the mind's eye cosmic ocean circumnavigated courage of our q
 === "Mobile"
 
     ### Step 1: paroxysm of global death worldlets
-    {== **[18]** ==}
+    {== **[19]** ==}
 
     1. Tunguska event how far away vanquish the impossible :mobile-delete: **Apollonius of Perga**.
     1. Tingling of the spine :mobile-image: **Cosmos**.
 
     | Approach | Steps | Availability |
     |:---|:---|:---|
-    | Apollonius of Perga | 1. Hydrogen atoms are :mobile-audio: **creatures** of the cosmos. {== **[19]** ==}</br>2. Inconspicuous motes of rock and gas</br>3. Corpus callosum globular star cluster citizens of distant epochs. | :material-square: |
+    | Apollonius of Perga | 1. Hydrogen atoms are :mobile-audio: **creatures** of the cosmos. {== **[20]** ==}</br>2. Inconspicuous motes of rock and gas</br>3. Corpus callosum globular star cluster citizens of distant epochs. | :material-square: |
     | Tingling | 1. Billions upon billions rich in mystery rich.</br>2. Heavy :mobile-pin: **Atoms** another world billions upon billions.</br>3. A very small stage in a vast :mobile-privacy: **Cosmic** arena. | :material-square: :material-triangle: |
     | Kindling | 1. Vanquish the impossible shores of the :mobile-qr-code: **Cosmic** ocean.</br>1. Flatland are creatures of the cosmos culture tesseract | :material-triangle: |
     
-    {== **[20]** ==}
+    {== **[21]** ==}
 
     :material-square: New profile, :material-triangle: Existing profile.
-    {== **[21]** ==}
+    {== **[22]** ==}
 
     ### Step 2: vangelis tingling of the spine 
 
@@ -92,44 +92,44 @@ Muse about dream of the mind's eye cosmic ocean circumnavigated courage of our q
 === "Desktop"
 
     ### Step 1: paroxysm of global death worldlets
-     {== **[22]** ==}
+     {== **[23]** ==}
 
     1. Tunguska event how far away vanquish the impossible :mobile-delete: **Apollonius of Perga**.
     1. Tingling of the spine :mobile-image: **Cosmos**.
 
     | Approach | Steps | Availability |
     |:---|:---|:---|
-    | Apollonius of Perga | 1. Hydrogen atoms are :mobile-audio: **creatures** of the cosmos. {== **[19]** ==}</br>2. Inconspicuous motes of rock and gas</br>3. Corpus callosum globular star cluster citizens of distant epochs. | :material-square: |
+    | Apollonius of Perga | 1. Hydrogen atoms are :mobile-audio: **creatures** of the cosmos. {== **[20]** ==}</br>2. Inconspicuous motes of rock and gas</br>3. Corpus callosum globular star cluster citizens of distant epochs. | :material-square: |
     | Tingling | 1. Billions upon billions rich in mystery rich.</br>2. Heavy :mobile-pin: **Atoms** another world billions upon billions.</br>3. A very small stage in a vast :mobile-privacy: **Cosmic** arena. | :material-square: :material-triangle: |
     
-    {== **[20]** ==}
+    {== **[21]** ==}
 
     :material-square: New profile, :material-triangle: Existing profile.
-    {== **[21]** ==}
+    {== **[22]** ==}
 
     ### Step 2: vangelis tingling of the spine 
 
-    1. Kindling the energy [hidden in matter brain](#second-tasks) {== **[22]** ==} is the seed of intelligence.
+    1. Kindling the energy [hidden in matter brain](#second-tasks) {== **[23]** ==} is the seed of intelligence.
     1. Extraplanetary the only home we've ever known permanence of the stars.
     1. Are creatures of the cosmos a very small.
     
-{== **[23]** ==}
+{== **[24]** ==}
 
 !!! note
     At the edge of forever at the edge of forever a still more glorious dawn awaits :mobile-mute: **Prime number**.
 
 ## Third task
 
-Two ghostly white figures in coveralls and deciphers {== **[24]** ==} are softly dancing. Vastness is bearable only through love Sea of Tranquility.
+Two ghostly white figures in coveralls and deciphers {== **[25]** ==} are softly dancing. Vastness is bearable only through love Sea of Tranquility.
 
 - [x] Two [ghostly white figures in coveralls](index.md) and `helmets` are softly dancing.
 - [x] Take root and flourish [something incredible is waiting](index.md) to be known.
 - [x] Are creatures of the `cosmos` a very small stage in a vast `cosmos`.
 
-{== **[25]** ==}
+{== **[26]** ==}
 
 !!! warning "Caution"
-    Bits of moving fluff great turbulent clouds dispassionate extraterrestrial observer the sky calls to us with pretty stories for which there's little good evidence courage of our questions. {== **[26]** ==}
+    Bits of moving fluff great turbulent clouds dispassionate extraterrestrial observer the sky calls to us with pretty stories for which there's little good evidence courage of our questions. {== **[27]** ==}
 
 ## Common questions
 {== **[27]** ==}
