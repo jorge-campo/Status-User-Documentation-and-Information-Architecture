@@ -84,6 +84,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.tilde
   - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.superfences
   - def_list
