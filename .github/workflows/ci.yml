@@ -28,6 +28,10 @@ jobs:
             ${{ runner.os }}-node-
       - run: apt-get install pngquant 
       - run: pip install git+ssh://git@github.com/status-im/mkdocs-material-insiders.git
+      - name: Install mkdocs-material-insiders dependencies
+        run: |
+          cd docs
+          pip install -r requirements.txt
       - uses: actions/setup-node@v3
         with:
           node-version: '16'
