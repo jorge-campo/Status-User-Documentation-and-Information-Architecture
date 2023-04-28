@@ -18,13 +18,13 @@ Here is a description of the document components in [this example file](./docume
 | **[12]** | Tabs | tabs | Tabs group information for a particular Status app platform o screen. |
 | **[13]** | Interactive UI elements | UI label | Inside procedural steps, elements the user can click or tap use an icon first (if any) and the label name in bold typeface. |
 | **[14]** | Second-level bullet lists | list | For steps with multiple options, options are grouped in a second-level bullet lists. This element is rarely used and not recommended. |
-| **[15]**  | Procedural steps | numbered list | Procedures with steps (not tasks) the user should complete in a particular order use numbered lists. The number of steps is limited to six or seven per procedure. |
-| **[16]**  | Screenshot | image | Screeshosts guide users to the proper screen, discribe UI elements or UI interactions requiring multiple steps. |
+| **[15]** | Procedural steps | numbered list | Procedures with steps (not tasks) the user should complete in a particular order use numbered lists. The number of steps is limited to six or seven per procedure. |
+| **[16]** | Screenshot | image | Screeshosts guide users to the proper screen, discribe UI elements or UI interactions requiring multiple steps. |
 | **[17]** | Internal admonition | admonition | When using a tabbed interface, this admonition is visible only selecting one of the tabs. This helps to clarify information for a particular tab only. |
 | **[18]**  | Tip admonition | admonition | There are three types of admonitions, in order of importance: tip, info, and caution. |
-| **[19]** : | Substeps | H3 header | For procedural steps with more than 6-7 steps, we split the procedrue into subprocedures. H3 is the minimum header level on our docs. Level-three headers don't appear in the right-hand table of contents. |
+| **[19]** | Substeps | H3 header | For procedural steps with more than 6-7 steps, we split the procedrue into subprocedures. H3 is the minimum header level on our docs. Level-three headers don't appear in the right-hand table of contents. |
 | **[20]** | Procedural steps in a table | numbered list | Some proceral steps go inside tables. :material-triangle: |
-| **[21]** | Table | table | Table. |
+| **[21]** | Table | table | Any topic (procedure, concept, or reference) can include a table to summarize different information. |
 | **[22]** | Legend | text | A short legend explaining the numbers or figures on the table. |
 | **[23]**  | Internal link | A link to anohter part of the same document. Procedural steps may include internal links but never include external links. |
 | **[24]**  | Admonition | admonition | In procedures, admonition go after the procedure or screenshot (if any). |
@@ -32,5 +32,6 @@ Here is a description of the document components in [this example file](./docume
 | **[26]**  | Check-boxes | checkbox | Procedures with more or less complex tasks (not steps) the user must complete, not necessarily in an orderly fashion. |
 | **[27]** | Caution admonition | admonition | There are three types of admonitions, in order of importance: tip, info, and caution. |
 | **[28]** | Common questions | H2, H3 headers | Some documents include this section at the end, with each question in a different H3 header. |
+| **Date, Authors** | Information | metadata | Articles include the date of last update, or creation date if there is not update. Additionally, articles include the GitHub avatar of up to three different authors. Clicking on the author avatar opens their GitHub profile page. |
 
 :material-triangle: Procedural steps inside tables should have the same format as procedural steps outside tables. At this time, we haven't updated the static site generator to achieve this functionality.
