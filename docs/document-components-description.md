@@ -1,15 +1,15 @@
-# Mardkown components description.
+# Document components description
 
-Here you can find a description of the Markdown components in [this example file](example-with-all-markdown-components.md).
+Here you can find a description of the Markdown components in [this example file](./document-example-with-all-components.md).
 
-| Number | Component name | Markdown name | Notes |
+| Number | Component name | Component type | Notes |
 |:---|:---|:---|:---|
-| :one: | Header image | image | Describes the are on the UI where the action takes place. |
-| :two: | Topic title | H1 header | Each document can only have one H1 header. This header appears in bold typeface at the top of the righ-hand table of contents. |
-| :three: | Top admonition | admonition | This is an optiona admonition to alert readers about the feature availability. |
-| :four: | Internal link | link | A link to another document in Status Help or another header in the same document. |
-| :five: | Paragraph | text | Paragraphs are limited to a maximum of 60 words. |
-| :six: | Sentence | text | Sentences are limited to a maximum of 25 words. |
+| **[01]** | Header image | image | Describes the area on the UI where the action or discussion takes place. |
+| **[02]** | Topic title | H1 header | Each document has only one H1 header. This header appears in bold typeface at the top of the righ-hand table of contents. |
+| **[03]** | Top area admonition | admonition | This is an optional admonition to alert readers about the feature availability. This admonition has no title. |
+| **[04]** | Internal link | link | A link to another document in Status Help or another H2 or H3 header in the same document. |
+| **[05]** | Paragraph | text | Paragraphs are limited to a maximum of 60 words. |
+| **[06]** | Sentence | text | Sentences are limited to a maximum of 25 words. |
 | :seven: | Info admonition | admonition | There are three types of admonitions, in order of importance: tip, info, caution. |
 | :eight: | Section title | H2 header | Level-2 headers group the different document sections. These headers appear in regular typeface in the righ-hand table of contents. |
 | :nine: | Code format | code | Outside of procedural steps, we use code-format typeface for certain variables. For example: `Who holds`, `Is allowed to`, or `In`. |

@@ -1,7 +1,7 @@
 ![This is an image explanation for screen readers](./media/header.png)
 :one:
 
-# Doc example with all Markdown components
+# Document example with all components
 :two:
 
 !!! note ""

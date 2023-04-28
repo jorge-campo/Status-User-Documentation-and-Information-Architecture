@@ -1,7 +1,7 @@
 # Material for MkDocs configuration file
 
 # Project information
-site_name: 'Status user documentation and information architecture'
+site_name: 'Status user docs specification'
 site_url: https://help.status.im/
 site_author: 'Status Research & Development GmbH'
 site_description: 'Status app user documentation'
@@ -128,6 +128,6 @@ plugins:
 
 # Page tree (for the hamburger menu navigation)
 nav:
-  - Start: index.md
-  - Section 1: index.md
-  - Section 2: index.md
+  - Status user docs specification: index.md
+  - Document example with all components: document-example-with-all-components.md
+  - Document components description: document-components-desription.md
