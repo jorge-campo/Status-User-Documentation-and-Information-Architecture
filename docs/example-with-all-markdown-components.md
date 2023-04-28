@@ -1,10 +1,10 @@
 ![This is an image explanation for screen readers](./media/header.png)
 :one:
 
-# Example with all Markdown components
+# Doc example with all Markdown components
 :two:
 
-!!! info ""
+!!! note ""
     Dream of the mind's eye invent the universe from which we spring with pretty stories for which there's little good evidence concept. :three:
 
 The only home we've ever known Flatland gathered by gravity tendrils of gossamer clouds kindling the energy hidden in matter worldlets. [Decipherment network of wormholes](./index.md) :four: explorations white dwarf colonies Sea of Tranquility. :five:
@@ -66,7 +66,8 @@ Muse about dream of the mind's eye cosmic ocean circumnavigated courage of our q
 
 === "Mobile"
 
-    ### Step 1: Paroxysm of global death worldlets
+    ### Step 1: paroxysm of global death worldlets
+    :one::six:
 
     1. Tunguska event how far away vanquish the impossible :mobile-delete: **Apollonius of Perga**.
     1. Tingling of the spine :mobile-image: **Cosmos**.
@@ -74,12 +75,15 @@ Muse about dream of the mind's eye cosmic ocean circumnavigated courage of our q
     | Approach | Steps | Availability |
     |:---|:---|:---|
     | Apollonius of Perga | 1. Hydrogen atoms are :mobile-audio: **creatures** of the cosmos</br>2. Inconspicuous motes of rock and gas</br>3. Corpus callosum globular star cluster citizens of distant epochs. | :material-square: |
-    | Tingling | 1. Billions upon billions rich in mystery rich</br>2. Heavy atoms another world billions upon billions.</br>3. A very small stage in a vast cosmic arena. | :material-square: :material-triangle: |
-    | Kindling | 1. Vanquish the impossible shores of the cosmic ocean.</br>1. Flatland are creatures of the cosmos culture tesseract | :material-triangle: |
+    | Tingling | 1. Billions upon billions rich in mystery rich</br>2. Heavy :mobile-pin: **Atoms** another world billions upon billions.</br>3. A very small stage in a vast :mobile-privacy: **Cosmic** arena. | :material-square: :material-triangle: |
+    | Kindling | 1. Vanquish the impossible shores of the :mobile-qr-code: **Cosmic** ocean.</br>1. Flatland are creatures of the cosmos culture tesseract | :material-triangle: |
+    
+    :one::seven:
 
     :material-square: New profile, :material-triangle: Existing profile.
+    :one::eight:
 
-    ### Step 2: Vangelis tingling of the spine 
+    ### Step 2: vangelis tingling of the spine 
 
     1. Kindling the energy [hidden in matter brain](#second-tasks) is the seed of intelligence.
     1. Extraplanetary the only home we've ever known permanence of the stars.
@@ -87,7 +91,8 @@ Muse about dream of the mind's eye cosmic ocean circumnavigated courage of our q
 
 === "Desktop"
 
-    ### Step 1: Paroxysm of global death worldlets
+    ### Step 1: paroxysm of global death worldlets
+    :one::six:
 
     1. Tunguska event how far away vanquish the impossible :mobile-delete: **Apollonius of Perga**.
     1. Tingling of the spine :mobile-image: **Cosmos**.
@@ -95,25 +100,46 @@ Muse about dream of the mind's eye cosmic ocean circumnavigated courage of our q
     | Approach | Steps | Availability |
     |:---|:---|:---|
     | Apollonius of Perga | 1. Hydrogen atoms are :mobile-audio: **creatures** of the cosmos</br>2. Inconspicuous motes of rock and gas</br>3. Corpus callosum globular star cluster citizens of distant epochs. | :material-square: |
+    | Tingling | 1. Billions upon billions rich in mystery rich</br>2. Heavy :mobile-pin: **Atoms** another world billions upon billions.</br>3. A very small stage in a vast :mobile-privacy: **Cosmic** arena. | :material-square: :material-triangle: |
+    
+    :one::seven:
 
     :material-square: New profile, :material-triangle: Existing profile.
+    :one::eight:
 
-    ### Step 2: Vangelis tingling of the spine 
+    ### Step 2: vangelis tingling of the spine 
 
     1. Kindling the energy [hidden in matter brain](#second-tasks) is the seed of intelligence.
     1. Extraplanetary the only home we've ever known permanence of the stars.
     1. Are creatures of the cosmos a very small.
+    
+:one::nine:
 
-!!! Note
-    At the edge of forever at the edge of forever a still more glorious dawn awaits :mobile-untrusted: **Prime number**.
+!!! note
+    At the edge of forever at the edge of forever a still more glorious dawn awaits :mobile-mute: **Prime number**.
 
-## Third tasks
+## Third task
 
-Two ghostly white figures in coveralls and helmets are softly dancing. Vastness is bearable only through love Sea of Tranquility.
+Two ghostly white figures in coveralls and helmets :two::zero: are softly dancing. Vastness is bearable only through love Sea of Tranquility.
 
-- [x] Two ghostly white figures in coveralls and `helmets` are softly dancing
+- [x] Two ghostly white figures in coveralls and `helmets` are softly dancing.
 - [x] Take root and flourish something incredible is waiting to be known.
 - [x] Are creatures of the `cosmos` a very small stage in a vast `cosmos`.
 
-!!! warning
+:two::one:
+
+!!! warning "Caution"
     Bits of moving fluff great turbulent clouds dispassionate extraterrestrial observer the sky calls to us with pretty stories for which there's little good evidence courage of our questions.
+
+## Common questions
+:two::two:
+
+### Common question 1
+
+Ship of the imagination a billion trillion with pretty stories for which there's little good evidence extraplanetary Flatland concept of the number one. Billions upon billions hundreds of thousands from which we spring extraordinary claims require extraordinary evidence permanence of the stars across the centuries.
+
+### Common question 2
+
+Extraordinary claims require extraordinary evidence hearts of the stars muse about with pretty stories for which there's little good evidence citizens of distant epochs rings of Uranus.
+
+*[helmets]: Venture at the edge of forever inconspicuous motes of rock and gas intelligent beings how far away paroxysm of global death.
