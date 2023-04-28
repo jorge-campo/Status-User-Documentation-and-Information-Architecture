@@ -1,0 +1,892 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Status user documentation and information architecture">
+      
+      
+        <meta name="author" content="Status Research & Development GmbH">
+      
+      
+        <link rel="canonical" href="https://jorge-campo.github.io/Status-User-Documentation-and-Information-Architecture/document-example-with-all-components/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../document-components-description/">
+      
+      <link rel="icon" href="../assets/images/status-logo-32x32.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.8">
+    
+    
+      
+        <title>Document example - Status user docs specification</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ded33207.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+  
+  
+    
+    
+  
+    
+    
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zm-40-176h24v-64h-24c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24h-80c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M234.7 42.7 197 56.8c-3 1.1-5 4-5 7.2s2 6.1 5 7.2l37.7 14.1 14.1 37.7c1.1 3 4 5 7.2 5s6.1-2 7.2-5l14.1-37.7L315 71.2c3-1.1 5-4 5-7.2s-2-6.1-5-7.2l-37.7-14.1L263.2 5c-1.1-3-4-5-7.2-5s-6.1 2-7.2 5l-14.1 37.7zM46.1 395.4c-18.7 18.7-18.7 49.1 0 67.9l34.6 34.6c18.7 18.7 49.1 18.7 67.9 0l381.3-381.4c18.7-18.7 18.7-49.1 0-67.9l-34.6-34.5c-18.7-18.7-49.1-18.7-67.9 0L46.1 395.4zM484.6 82.6l-105 105-23.3-23.3 105-105 23.3 23.3zM7.5 117.2C3 118.9 0 123.2 0 128s3 9.1 7.5 10.8L64 160l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L128 160l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L128 96l-21.2-56.5c-1.7-4.5-6-7.5-10.8-7.5s-9.1 3-10.8 7.5L64 96 7.5 117.2zm352 256c-4.5 1.7-7.5 6-7.5 10.8s3 9.1 7.5 10.8L416 416l21.2 56.5c1.7 4.5 6 7.5 10.8 7.5s9.1-3 10.8-7.5L480 416l56.5-21.2c4.5-1.7 7.5-6 7.5-10.8s-3-9.1-7.5-10.8L480 352l-21.2-56.5c-1.7-4.5-6-7.5-10.8-7.5s-9.1 3-10.8 7.5L416 352l-56.5 21.2z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7.2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8.2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24v112c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0-64 0 32 32 0 1 0 64 0z"/></svg>');}</style>
+
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="teal">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#doc-example-with-all-markdown-components" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+            
+
+
+          </div>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Status user docs specification" class="md-header__button md-logo" aria-label="Status user docs specification" data-md-component="logo">
+      
+  <img src="../assets/images/status-logo-320x320.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Status user docs specification
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Document example
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+              </label>
+            
+          
+            
+            
+            
+            <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+              </label>
+            
+          
+        </form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/jorge-campo/Status-User-Documentation-and-Information-Architecture" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Status user documentation and information architecture
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Specification
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  <li class="md-tabs__item">
+    <a href="./" class="md-tabs__link md-tabs__link--active">
+      Document example
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../document-components-description/" class="md-tabs__link">
+      Components description
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Status user docs specification" class="md-nav__button md-logo" aria-label="Status user docs specification" data-md-component="logo">
+      
+  <img src="../assets/images/status-logo-320x320.png" alt="logo">
+
+    </a>
+    Status user docs specification
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/jorge-campo/Status-User-Documentation-and-Information-Architecture" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Status user documentation and information architecture
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Specification
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Document example
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Document example
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-to-expect" class="md-nav__link">
+    What to expect
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-task" class="md-nav__link">
+    First task
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#second-tasks" class="md-nav__link">
+    Second tasks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#third-task" class="md-nav__link">
+    Third task
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-questions" class="md-nav__link">
+    Common questions
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../document-components-description/" class="md-nav__link">
+        Components description
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-to-expect" class="md-nav__link">
+    What to expect
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-task" class="md-nav__link">
+    First task
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#second-tasks" class="md-nav__link">
+    Second tasks
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#third-task" class="md-nav__link">
+    Third task
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-questions" class="md-nav__link">
+    Common questions
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/jorge-campo/Status-User-Documentation-and-Information-Architecture/edit/main/docs/document-example-with-all-components.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/jorge-campo/Status-User-Documentation-and-Information-Architecture/raw/main/docs/document-example-with-all-components.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z"/></svg>
+    </a>
+  
+
+
+<p><img alt="This is an image explanation for screen readers" src="../media/header.png" />
+<mark class="critic"><strong>[01]</strong></mark></p>
+<h1 id="doc-example-with-all-markdown-components">Doc example with all Markdown components<a class="headerlink" href="#doc-example-with-all-markdown-components" title="Permanent link">&para;</a></h1>
+<p><mark class="critic"><strong>[02]</strong></mark></p>
+<div class="admonition note">
+<p>Dream of the mind's eye invent the universe from which we spring with pretty stories for which there's little good evidence concept. <mark class="critic"><strong>[03]</strong></mark></p>
+</div>
+<p>The only home we've ever known Flatland gathered by gravity tendrils of gossamer clouds kindling the energy hidden in matter worldlets. <a href="../">Decipherment network of wormholes</a> <mark class="critic"><strong>[04]</strong></mark> explorations white dwarf colonies Sea of Tranquility. <mark class="critic"><strong>[05]</strong></mark></p>
+<p>Intelligent beings across the network of wormholes rich in heavy atoms paroxysm of global death with pretty stories for which there's little good evidence. <mark class="critic"><strong>[06]</strong></mark></p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Two ghostly white figures in coveralls and helmets are softly dancing extraordinary claims require extraordinary evidence Drake Equation. <mark class="critic"><strong>[07]</strong></mark></p>
+</div>
+<h2 id="what-to-expect">What to expect<a class="headerlink" href="#what-to-expect" title="Permanent link">&para;</a></h2>
+<p><mark class="critic"><strong>[08]</strong></mark></p>
+<ul>
+<li>Network of wormholes Sea of Tranquility vastness is bearable only through love the <code>carbon</code>. <mark class="critic"><strong>[09]</strong></mark></li>
+<li>Stirred by starlight globular star cluster science tingling of the spine birth a mote of <code>dust</code> suspended in a sunbeam.</li>
+<li>Two ghostly white figures in coveralls and <a href="https://status.im/get" target="_blank">helmets are softly dancing <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3.25 4a.25.25 0 0 0-.25.25v9a.75.75 0 0 1-.75.75H.75a.75.75 0 0 1 0-1.5h.75V4.25c0-.966.784-1.75 1.75-1.75h9.5c.966 0 1.75.784 1.75 1.75v8.25h.75a.75.75 0 0 1 0 1.5h-1.5a.75.75 0 0 1-.75-.75v-9a.25.25 0 0 0-.25-.25h-9.5Z"/><path d="m7.97 7.97-2.75 2.75a.75.75 0 1 0 1.06 1.06l2.75-2.75 1.543 1.543a.25.25 0 0 0 .427-.177V6.25a.25.25 0 0 0-.25-.25H6.604a.25.25 0 0 0-.177.427L7.97 7.97Z"/></svg></span></a> <mark class="critic"><strong>[10]</strong></mark> extraordinary claims require extraordinary evidence.
+</br><mark class="critic"><strong>[11]</strong></mark></li>
+</ul>
+<h2 id="first-task">First task<a class="headerlink" href="#first-task" title="Permanent link">&para;</a></h2>
+<p>Something incredible is waiting to be known hearts of the <code>stars</code> venture from which we spring take root and flourish <code>finite</code> but unbounded.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Mobile <mark class="critic"><strong>[12]</strong></mark></label><label for="__tabbed_1_2">Desktop</label><label for="__tabbed_1_3">Web</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Orion's sword kindling the <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_133_25475)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 1.89998C6.86964 1.89998 1.9 6.86961 1.9 13C1.9 19.1303 6.86964 24.1 13 24.1C19.1304 24.1 24.1 19.1303 24.1 13C24.1 6.86961 19.1304 1.89998 13 1.89998ZM0.0999985 13C0.0999985 5.8755 5.87552 0.0999756 13 0.0999756C20.1245 0.0999756 25.9 5.8755 25.9 13C25.9 20.1244 20.1245 25.9 13 25.9C5.87552 25.9 0.0999985 20.1244 0.0999985 13Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.2746 18.7359C9.41045 18.378 8.6253 17.8533 7.96394 17.192L9.23674 15.9192C9.73095 16.4134 10.3177 16.8054 10.9634 17.0729C11.6091 17.3404 12.3012 17.478 13.0001 17.478C13.699 17.478 14.3911 17.3404 15.0368 17.0729C15.6826 16.8054 16.2693 16.4134 16.7635 15.9192L18.0363 17.192C17.3749 17.8533 16.5898 18.378 15.7257 18.7359C14.8616 19.0938 13.9354 19.278 13.0001 19.278C12.0648 19.278 11.1387 19.0938 10.2746 18.7359Z" />
+<path d="M11.2222 10.3333C11.2222 11.3152 10.4262 12.1111 9.4444 12.1111C8.46256 12.1111 7.66663 11.3152 7.66663 10.3333C7.66663 9.35148 8.46256 8.55554 9.4444 8.55554C10.4262 8.55554 11.2222 9.35148 11.2222 10.3333Z" />
+<path d="M18.3334 10.3333C18.3334 11.3152 17.5374 12.1111 16.5556 12.1111C15.5738 12.1111 14.7778 11.3152 14.7778 10.3333C14.7778 9.35148 15.5738 8.55554 16.5556 8.55554C17.5374 8.55554 18.3334 9.35148 18.3334 10.3333Z" />
+</g>
+<defs>
+<clipPath id="clip0_133_25475">
+<rect width="26" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</span> <strong>Energy</strong> <mark class="critic"><strong>[13]</strong></mark> hidden in matter from which we spring a very small.</li>
+<li>Extraplanetary the ash of stellar alchemy white dwarf <span class="twemoji"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.47857 19.5214L4.61293 20.1574C4.39786 20.2028 4.17439 20.1365 4.01895 19.981C3.86352 19.8256 3.79717 19.6021 3.84261 19.3871L4.47857 19.5214ZM5.12758 16.4495L4.49162 16.3151L5.12758 16.4495ZM7.55053 18.8724L7.68489 19.5084L7.55053 18.8724ZM4.55 12V12.3356H3.25V12H4.55ZM11.6644 19.45H12V20.75H11.6644V19.45ZM4.34421 18.8855L7.41617 18.2365L7.68489 19.5084L4.61293 20.1574L4.34421 18.8855ZM5.76354 16.5838L5.11453 19.6558L3.84261 19.3871L4.49162 16.3151L5.76354 16.5838ZM5.63714 15.9262C5.76599 16.1195 5.81156 16.3565 5.76354 16.5838L4.49162 16.3151C4.46736 16.4299 4.49038 16.5497 4.55547 16.6473L5.63714 15.9262ZM7.41617 18.2365C7.64346 18.1884 7.8805 18.234 8.07379 18.3629L7.35268 19.4445C7.45032 19.5096 7.57007 19.5326 7.68489 19.5084L7.41617 18.2365ZM4.55 12.3356C4.55 13.6136 4.92827 14.8629 5.63714 15.9262L4.55547 16.6473C3.70424 15.3705 3.25 13.8702 3.25 12.3356H4.55ZM20.75 12C20.75 16.8325 16.8325 20.75 12 20.75V19.45C16.1145 19.45 19.45 16.1145 19.45 12H20.75ZM12 4.55C7.88548 4.55 4.55 7.88548 4.55 12H3.25C3.25 7.16751 7.16751 3.25 12 3.25V4.55ZM11.6644 20.75C10.1298 20.75 8.62953 20.2958 7.35268 19.4445L8.07379 18.3629C9.13709 19.0717 10.3864 19.45 11.6644 19.45V20.75ZM12 3.25C16.8325 3.25 20.75 7.16751 20.75 12H19.45C19.45 7.88548 16.1145 4.55 12 4.55V3.25Z" />
+<path d="M9 10.85H15V9.55H9V10.85Z" />
+<path d="M9 14.45H13.8V13.15H9V14.45Z" />
+</svg>
+</span> <strong>Flatland</strong> made in the interiors of collapsing stars astonishment.<ul>
+<li>Preserve and cherish that pale blue dot prime number trillion <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.76924 12.35L11.5096 17.0904L10.5904 18.0096L4.74038 12.1596L4.28076 11.7L4.74038 11.2404L10.5904 5.39038L11.5096 6.30962L6.76924 11.05L14.4 11.05H14.4289H14.4289C15.5245 11.05 16.3866 11.05 17.0801 11.1067C17.7873 11.1644 18.3763 11.2844 18.9111 11.5568C19.786 12.0026 20.4974 12.714 20.9432 13.5889C21.2156 14.1237 21.3356 14.7127 21.3933 15.4199C21.45 16.1134 21.45 16.9754 21.45 18.071V18.0711V18.1V20.15H20.15V18.1C20.15 16.9692 20.1495 16.1601 20.0977 15.5257C20.0464 14.8989 19.9484 14.5001 19.7849 14.1791C19.4637 13.5488 18.9512 13.0363 18.3209 12.7151C17.9999 12.5516 17.6011 12.4536 16.9743 12.4023C16.3399 12.3505 15.5308 12.35 14.4 12.35H6.76924Z" />
+</svg>
+</span> <strong>extraplanetary</strong> corpus</li>
+<li>callosum encyclopaedia galactica. Cosmic fugue from which we <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.76314 2.81938C8.53401 2.66998 9.40999 2.57875 10.3998 2.52716V4.08941C9.49821 4.13873 8.72515 4.22197 8.05994 4.35088C6.83541 4.58819 6.04819 4.96719 5.50762 5.50777C4.96704 6.04835 4.58804 6.83556 4.35073 8.06009C4.22182 8.72528 4.13858 9.49832 4.08926 10.3999H2.52701C2.57861 9.4101 2.66984 8.53414 2.81923 7.76329C3.08973 6.36751 3.56386 5.24535 4.40453 4.40468C5.2452 3.56401 6.36736 3.08988 7.76314 2.81938ZM15.5998 2.52716V4.08941C16.5015 4.13873 17.2745 4.22197 17.9397 4.35088C19.1642 4.58819 19.9515 4.96719 20.492 5.50777C21.0326 6.04835 21.4116 6.83556 21.6489 8.06009C21.7778 8.72528 21.8611 9.49832 21.9104 10.3999H23.4726C23.421 9.4101 23.3298 8.53414 23.1804 7.76329C22.9099 6.36751 22.4358 5.24535 21.5951 4.40468C20.7544 3.56401 19.6323 3.08988 18.2365 2.81938C17.4656 2.66998 16.5897 2.57875 15.5998 2.52716ZM17.9397 21.6491C17.2745 21.778 16.5015 21.8612 15.5998 21.9105V23.4728C16.5897 23.4212 17.4656 23.33 18.2365 23.1806C19.6323 22.9101 20.7544 22.4359 21.5951 21.5953C22.4358 20.7546 22.9099 19.6324 23.1804 18.2367C23.3298 17.4658 23.421 16.5898 23.4726 15.5999H21.9104C21.8611 16.5016 21.7778 17.2746 21.6489 17.9399C21.4116 19.1644 21.0326 19.9516 20.492 20.4922C19.9515 21.0328 19.1642 21.4118 17.9397 21.6491ZM4.35073 17.9399C4.22181 17.2746 4.13857 16.5016 4.08926 15.5999H2.52701C2.5786 16.5898 2.66983 17.4658 2.81923 18.2367C3.08973 19.6324 3.56386 20.7546 4.40453 21.5953C5.2452 22.4359 6.36736 22.9101 7.76314 23.1806C8.53401 23.33 9.40999 23.4212 10.3998 23.4728V21.9105C9.49821 21.8612 8.72515 21.778 8.05994 21.6491C6.83541 21.4118 6.04819 21.0328 5.50762 20.4922C4.96704 19.9516 4.58804 19.1644 4.35073 17.9399ZM9.09982 13.7799H16.8998V12.2199H9.09982V13.7799Z" />
+</svg>
+</span> <strong>Spring</strong>.</li>
+<li>A mote of dust suspended in a sunbeam kindling the energy hidden in matter bits of moving fluff <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.55 3.90002H12.5207C11.1454 3.90002 10.0733 3.90002 9.21308 3.9703C8.33912 4.04171 7.62664 4.18888 6.98496 4.51584C5.92184 5.05752 5.0575 5.92186 4.51581 6.98498C4.18886 7.62666 4.04169 8.33915 3.97028 9.2131C3.9 10.0734 3.9 11.1454 3.9 12.5207V12.55V13.7682V13.7944C3.9 15.0225 3.9 15.9799 3.95637 16.7507C4.01362 17.5334 4.13152 18.1747 4.39395 18.7604C4.96109 20.0261 5.97397 21.0389 7.23966 21.6061C7.82533 21.8685 8.46662 21.9864 9.24935 22.0437C10.0201 22.1 10.9775 22.1 12.2055 22.1H12.2057H12.2318H12.2582H12.2582C13.7362 22.1 14.8811 22.1 15.8013 22.0327C16.7334 21.9645 17.486 21.8248 18.1693 21.5186C19.659 20.8511 20.8511 19.659 21.5186 18.1693C21.8248 17.486 21.9645 16.7335 22.0327 15.8013C22.1 14.8811 22.1 13.7362 22.1 12.2583V12.2582V12.2318V12.2057V12.2056C22.1 10.9775 22.1 10.0202 22.0436 9.24937C21.9864 8.46664 21.8685 7.82536 21.6061 7.23969C21.0389 5.97399 20.026 4.96111 18.7603 4.39398C18.1747 4.13155 17.5334 4.01364 16.7507 3.9564C15.9798 3.90002 15.0225 3.90002 13.7943 3.90002H13.7682H12.55ZM7.57514 5.67415C8.00302 5.45613 8.52538 5.33082 9.31894 5.26599C10.1201 5.20053 11.1391 5.20002 12.55 5.20002H13.7682C15.028 5.20002 15.938 5.20043 16.6558 5.25293C17.3673 5.30497 17.8389 5.40563 18.2288 5.58032C19.2032 6.01697 19.9831 6.79679 20.4197 7.77127C20.5944 8.16114 20.6951 8.63277 20.7471 9.3442C20.7996 10.0621 20.8 10.972 20.8 12.2318C20.8 12.2715 20.8 12.3109 20.8 12.35H19.4H19.3711C18.2755 12.35 17.4134 12.35 16.7199 12.4067C16.0127 12.4645 15.4237 12.5844 14.8889 12.8568C14.014 13.3027 13.3026 14.014 12.8568 14.889C12.5844 15.4237 12.4644 16.0127 12.4067 16.7199C12.35 17.4134 12.35 18.2755 12.35 19.3711V19.4V20.8C12.3109 20.8 12.2715 20.8 12.2318 20.8C10.972 20.8 10.062 20.7996 9.34417 20.7471C8.63274 20.6951 8.16112 20.5944 7.77124 20.4197C6.79677 19.9831 6.01695 19.2033 5.5803 18.2288C5.40561 17.8389 5.30494 17.3673 5.25291 16.6559C5.20041 15.938 5.2 15.028 5.2 13.7682V12.55C5.2 11.1392 5.20051 10.1201 5.26596 9.31897C5.3308 8.5254 5.45611 8.00304 5.67412 7.57517C6.09117 6.75666 6.75664 6.0912 7.57514 5.67415ZM13.65 20.7973C14.469 20.7923 15.1373 20.7778 15.7065 20.7362C16.5673 20.6732 17.1502 20.5507 17.6377 20.3323C18.8362 19.7953 19.7953 18.8362 20.3323 17.6377C20.5507 17.1503 20.6732 16.5673 20.7362 15.7065C20.7778 15.1373 20.7923 14.469 20.7973 13.65H19.4C18.2692 13.65 17.4601 13.6505 16.8257 13.7024C16.1989 13.7536 15.8001 13.8516 15.4791 14.0152C14.8488 14.3363 14.3363 14.8488 14.0151 15.4792C13.8516 15.8001 13.7536 16.199 13.7023 16.8258C13.6505 17.4602 13.65 18.2692 13.65 19.4V20.7973Z" />
+</svg>
+</span> <strong>Venture</strong>.
+</br><mark class="critic"><strong>[14]</strong></mark></li>
+</ul>
+</li>
+<li>Paroxysm of global death a mote of dust suspended in a ocean rich in mystery tendrils of gossamer <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 3.46252C9.47141 3.46252 6.61093 6.323 6.61093 9.85159V10.9817C6.61093 11.914 6.31365 12.822 5.76227 13.5737L5.18123 14.3659C4.85639 14.8088 4.68124 15.3438 4.68124 15.893C4.68124 17.319 5.83725 18.475 7.26326 18.475H18.7367C20.1627 18.475 21.3187 17.319 21.3187 15.893C21.3187 15.3438 21.1436 14.8088 20.8188 14.3659L20.2377 13.5737C19.6863 12.822 19.3891 11.914 19.3891 10.9817V9.85159C19.3891 6.323 16.5286 3.46252 13 3.46252ZM7.81093 9.85159C7.81093 6.98575 10.1342 4.66252 13 4.66252C15.8658 4.66252 18.1891 6.98575 18.1891 9.85159V10.9817C18.1891 12.1693 18.5677 13.3259 19.2701 14.2835L19.8511 15.0757C20.025 15.3127 20.1187 15.599 20.1187 15.893C20.1187 16.6563 19.5 17.275 18.7367 17.275H7.26326C6.49999 17.275 5.88124 16.6563 5.88124 15.893C5.88124 15.599 5.97499 15.3127 6.14886 15.0757L6.7299 14.2835C7.43225 13.3259 7.81093 12.1693 7.81093 10.9817V9.85159ZM13 22.9438C13.6998 22.9438 14.3891 22.7772 15.0272 22.4581C15.6647 22.1393 16.236 21.6762 16.712 21.1015L15.7879 20.336C15.4104 20.7918 14.9683 21.1459 14.4906 21.3848C14.0134 21.6234 13.5073 21.7438 13 21.7438C12.4927 21.7438 11.9866 21.6234 11.5094 21.3848C11.0317 21.1459 10.5896 20.7918 10.212 20.336L9.28795 21.1015C9.76398 21.6762 10.3352 22.1393 10.9728 22.4581C11.6109 22.7772 12.3001 22.9438 13 22.9438Z" />
+</svg>
+</span> <strong>Stars</strong>.</li>
+</ol>
+<p><mark class="critic"><strong>[15]</strong></mark></p>
+<p><img alt="This is a screenshot description for screen readers" src="../media/screen.png" />
+<mark class="critic"><strong>[16]</strong></mark></p>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>Orion's sword kindling the <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_133_25475)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 1.89998C6.86964 1.89998 1.9 6.86961 1.9 13C1.9 19.1303 6.86964 24.1 13 24.1C19.1304 24.1 24.1 19.1303 24.1 13C24.1 6.86961 19.1304 1.89998 13 1.89998ZM0.0999985 13C0.0999985 5.8755 5.87552 0.0999756 13 0.0999756C20.1245 0.0999756 25.9 5.8755 25.9 13C25.9 20.1244 20.1245 25.9 13 25.9C5.87552 25.9 0.0999985 20.1244 0.0999985 13Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.2746 18.7359C9.41045 18.378 8.6253 17.8533 7.96394 17.192L9.23674 15.9192C9.73095 16.4134 10.3177 16.8054 10.9634 17.0729C11.6091 17.3404 12.3012 17.478 13.0001 17.478C13.699 17.478 14.3911 17.3404 15.0368 17.0729C15.6826 16.8054 16.2693 16.4134 16.7635 15.9192L18.0363 17.192C17.3749 17.8533 16.5898 18.378 15.7257 18.7359C14.8616 19.0938 13.9354 19.278 13.0001 19.278C12.0648 19.278 11.1387 19.0938 10.2746 18.7359Z" />
+<path d="M11.2222 10.3333C11.2222 11.3152 10.4262 12.1111 9.4444 12.1111C8.46256 12.1111 7.66663 11.3152 7.66663 10.3333C7.66663 9.35148 8.46256 8.55554 9.4444 8.55554C10.4262 8.55554 11.2222 9.35148 11.2222 10.3333Z" />
+<path d="M18.3334 10.3333C18.3334 11.3152 17.5374 12.1111 16.5556 12.1111C15.5738 12.1111 14.7778 11.3152 14.7778 10.3333C14.7778 9.35148 15.5738 8.55554 16.5556 8.55554C17.5374 8.55554 18.3334 9.35148 18.3334 10.3333Z" />
+</g>
+<defs>
+<clipPath id="clip0_133_25475">
+<rect width="26" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</span> <strong>Energy</strong> <mark class="critic"><strong>[13]</strong></mark> hidden in matter from which we spring a very small.</li>
+<li>Extraplanetary the ash of stellar alchemy white dwarf <span class="twemoji"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.47857 19.5214L4.61293 20.1574C4.39786 20.2028 4.17439 20.1365 4.01895 19.981C3.86352 19.8256 3.79717 19.6021 3.84261 19.3871L4.47857 19.5214ZM5.12758 16.4495L4.49162 16.3151L5.12758 16.4495ZM7.55053 18.8724L7.68489 19.5084L7.55053 18.8724ZM4.55 12V12.3356H3.25V12H4.55ZM11.6644 19.45H12V20.75H11.6644V19.45ZM4.34421 18.8855L7.41617 18.2365L7.68489 19.5084L4.61293 20.1574L4.34421 18.8855ZM5.76354 16.5838L5.11453 19.6558L3.84261 19.3871L4.49162 16.3151L5.76354 16.5838ZM5.63714 15.9262C5.76599 16.1195 5.81156 16.3565 5.76354 16.5838L4.49162 16.3151C4.46736 16.4299 4.49038 16.5497 4.55547 16.6473L5.63714 15.9262ZM7.41617 18.2365C7.64346 18.1884 7.8805 18.234 8.07379 18.3629L7.35268 19.4445C7.45032 19.5096 7.57007 19.5326 7.68489 19.5084L7.41617 18.2365ZM4.55 12.3356C4.55 13.6136 4.92827 14.8629 5.63714 15.9262L4.55547 16.6473C3.70424 15.3705 3.25 13.8702 3.25 12.3356H4.55ZM20.75 12C20.75 16.8325 16.8325 20.75 12 20.75V19.45C16.1145 19.45 19.45 16.1145 19.45 12H20.75ZM12 4.55C7.88548 4.55 4.55 7.88548 4.55 12H3.25C3.25 7.16751 7.16751 3.25 12 3.25V4.55ZM11.6644 20.75C10.1298 20.75 8.62953 20.2958 7.35268 19.4445L8.07379 18.3629C9.13709 19.0717 10.3864 19.45 11.6644 19.45V20.75ZM12 3.25C16.8325 3.25 20.75 7.16751 20.75 12H19.45C19.45 7.88548 16.1145 4.55 12 4.55V3.25Z" />
+<path d="M9 10.85H15V9.55H9V10.85Z" />
+<path d="M9 14.45H13.8V13.15H9V14.45Z" />
+</svg>
+</span> <strong>Flatland</strong> made in the interiors of collapsing stars astonishment.</li>
+<li>Paroxysm of global death a mote of dust suspended in a ocean rich in mystery tendrils of gossamer clouds.</li>
+<li>Dispassionate extraterrestrial observer permanence of the <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 3.46252C9.47141 3.46252 6.61093 6.323 6.61093 9.85159V10.9817C6.61093 11.914 6.31365 12.822 5.76227 13.5737L5.18123 14.3659C4.85639 14.8088 4.68124 15.3438 4.68124 15.893C4.68124 17.319 5.83725 18.475 7.26326 18.475H18.7367C20.1627 18.475 21.3187 17.319 21.3187 15.893C21.3187 15.3438 21.1436 14.8088 20.8188 14.3659L20.2377 13.5737C19.6863 12.822 19.3891 11.914 19.3891 10.9817V9.85159C19.3891 6.323 16.5286 3.46252 13 3.46252ZM7.81093 9.85159C7.81093 6.98575 10.1342 4.66252 13 4.66252C15.8658 4.66252 18.1891 6.98575 18.1891 9.85159V10.9817C18.1891 12.1693 18.5677 13.3259 19.2701 14.2835L19.8511 15.0757C20.025 15.3127 20.1187 15.599 20.1187 15.893C20.1187 16.6563 19.5 17.275 18.7367 17.275H7.26326C6.49999 17.275 5.88124 16.6563 5.88124 15.893C5.88124 15.599 5.97499 15.3127 6.14886 15.0757L6.7299 14.2835C7.43225 13.3259 7.81093 12.1693 7.81093 10.9817V9.85159ZM13 22.9438C13.6998 22.9438 14.3891 22.7772 15.0272 22.4581C15.6647 22.1393 16.236 21.6762 16.712 21.1015L15.7879 20.336C15.4104 20.7918 14.9683 21.1459 14.4906 21.3848C14.0134 21.6234 13.5073 21.7438 13 21.7438C12.4927 21.7438 11.9866 21.6234 11.5094 21.3848C11.0317 21.1459 10.5896 20.7918 10.212 20.336L9.28795 21.1015C9.76398 21.6762 10.3352 22.1393 10.9728 22.4581C11.6109 22.7772 12.3001 22.9438 13 22.9438Z" />
+</svg>
+</span> <strong>Stars</strong>.</li>
+</ol>
+<p><mark class="critic"><strong>[15]</strong></mark></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Sea of Tranquility courage of our questions bits of moving fluff and billions upon billions upon billions upon billions upon billions upon billions upon billions. <mark class="critic"><strong>[17]</strong></mark></p>
+</div>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>Orion's sword kindling the <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_133_25475)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 1.89998C6.86964 1.89998 1.9 6.86961 1.9 13C1.9 19.1303 6.86964 24.1 13 24.1C19.1304 24.1 24.1 19.1303 24.1 13C24.1 6.86961 19.1304 1.89998 13 1.89998ZM0.0999985 13C0.0999985 5.8755 5.87552 0.0999756 13 0.0999756C20.1245 0.0999756 25.9 5.8755 25.9 13C25.9 20.1244 20.1245 25.9 13 25.9C5.87552 25.9 0.0999985 20.1244 0.0999985 13Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.2746 18.7359C9.41045 18.378 8.6253 17.8533 7.96394 17.192L9.23674 15.9192C9.73095 16.4134 10.3177 16.8054 10.9634 17.0729C11.6091 17.3404 12.3012 17.478 13.0001 17.478C13.699 17.478 14.3911 17.3404 15.0368 17.0729C15.6826 16.8054 16.2693 16.4134 16.7635 15.9192L18.0363 17.192C17.3749 17.8533 16.5898 18.378 15.7257 18.7359C14.8616 19.0938 13.9354 19.278 13.0001 19.278C12.0648 19.278 11.1387 19.0938 10.2746 18.7359Z" />
+<path d="M11.2222 10.3333C11.2222 11.3152 10.4262 12.1111 9.4444 12.1111C8.46256 12.1111 7.66663 11.3152 7.66663 10.3333C7.66663 9.35148 8.46256 8.55554 9.4444 8.55554C10.4262 8.55554 11.2222 9.35148 11.2222 10.3333Z" />
+<path d="M18.3334 10.3333C18.3334 11.3152 17.5374 12.1111 16.5556 12.1111C15.5738 12.1111 14.7778 11.3152 14.7778 10.3333C14.7778 9.35148 15.5738 8.55554 16.5556 8.55554C17.5374 8.55554 18.3334 9.35148 18.3334 10.3333Z" />
+</g>
+<defs>
+<clipPath id="clip0_133_25475">
+<rect width="26" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</span> <strong>Energy</strong> <mark class="critic"><strong>[13]</strong></mark> hidden in matter from which we spring a very small.</li>
+<li>Extraplanetary the ash of stellar alchemy white dwarf.</li>
+<li><span class="twemoji"><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.47857 19.5214L4.61293 20.1574C4.39786 20.2028 4.17439 20.1365 4.01895 19.981C3.86352 19.8256 3.79717 19.6021 3.84261 19.3871L4.47857 19.5214ZM5.12758 16.4495L4.49162 16.3151L5.12758 16.4495ZM7.55053 18.8724L7.68489 19.5084L7.55053 18.8724ZM4.55 12V12.3356H3.25V12H4.55ZM11.6644 19.45H12V20.75H11.6644V19.45ZM4.34421 18.8855L7.41617 18.2365L7.68489 19.5084L4.61293 20.1574L4.34421 18.8855ZM5.76354 16.5838L5.11453 19.6558L3.84261 19.3871L4.49162 16.3151L5.76354 16.5838ZM5.63714 15.9262C5.76599 16.1195 5.81156 16.3565 5.76354 16.5838L4.49162 16.3151C4.46736 16.4299 4.49038 16.5497 4.55547 16.6473L5.63714 15.9262ZM7.41617 18.2365C7.64346 18.1884 7.8805 18.234 8.07379 18.3629L7.35268 19.4445C7.45032 19.5096 7.57007 19.5326 7.68489 19.5084L7.41617 18.2365ZM4.55 12.3356C4.55 13.6136 4.92827 14.8629 5.63714 15.9262L4.55547 16.6473C3.70424 15.3705 3.25 13.8702 3.25 12.3356H4.55ZM20.75 12C20.75 16.8325 16.8325 20.75 12 20.75V19.45C16.1145 19.45 19.45 16.1145 19.45 12H20.75ZM12 4.55C7.88548 4.55 4.55 7.88548 4.55 12H3.25C3.25 7.16751 7.16751 3.25 12 3.25V4.55ZM11.6644 20.75C10.1298 20.75 8.62953 20.2958 7.35268 19.4445L8.07379 18.3629C9.13709 19.0717 10.3864 19.45 11.6644 19.45V20.75ZM12 3.25C16.8325 3.25 20.75 7.16751 20.75 12H19.45C19.45 7.88548 16.1145 4.55 12 4.55V3.25Z" />
+<path d="M9 10.85H15V9.55H9V10.85Z" />
+<path d="M9 14.45H13.8V13.15H9V14.45Z" />
+</svg>
+</span> <strong>Flatland</strong> made in the interiors of collapsing stars astonishment.</li>
+<li>Dispassionate extraterrestrial observer permanence of the <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 3.46252C9.47141 3.46252 6.61093 6.323 6.61093 9.85159V10.9817C6.61093 11.914 6.31365 12.822 5.76227 13.5737L5.18123 14.3659C4.85639 14.8088 4.68124 15.3438 4.68124 15.893C4.68124 17.319 5.83725 18.475 7.26326 18.475H18.7367C20.1627 18.475 21.3187 17.319 21.3187 15.893C21.3187 15.3438 21.1436 14.8088 20.8188 14.3659L20.2377 13.5737C19.6863 12.822 19.3891 11.914 19.3891 10.9817V9.85159C19.3891 6.323 16.5286 3.46252 13 3.46252ZM7.81093 9.85159C7.81093 6.98575 10.1342 4.66252 13 4.66252C15.8658 4.66252 18.1891 6.98575 18.1891 9.85159V10.9817C18.1891 12.1693 18.5677 13.3259 19.2701 14.2835L19.8511 15.0757C20.025 15.3127 20.1187 15.599 20.1187 15.893C20.1187 16.6563 19.5 17.275 18.7367 17.275H7.26326C6.49999 17.275 5.88124 16.6563 5.88124 15.893C5.88124 15.599 5.97499 15.3127 6.14886 15.0757L6.7299 14.2835C7.43225 13.3259 7.81093 12.1693 7.81093 10.9817V9.85159ZM13 22.9438C13.6998 22.9438 14.3891 22.7772 15.0272 22.4581C15.6647 22.1393 16.236 21.6762 16.712 21.1015L15.7879 20.336C15.4104 20.7918 14.9683 21.1459 14.4906 21.3848C14.0134 21.6234 13.5073 21.7438 13 21.7438C12.4927 21.7438 11.9866 21.6234 11.5094 21.3848C11.0317 21.1459 10.5896 20.7918 10.212 20.336L9.28795 21.1015C9.76398 21.6762 10.3352 22.1393 10.9728 22.4581C11.6109 22.7772 12.3001 22.9438 13 22.9438Z" />
+</svg>
+</span> <strong>Stars</strong>.</li>
+</ol>
+<p><mark class="critic"><strong>[15]</strong></mark></p>
+</div>
+</div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>At the edge of forever at the edge of forever a still more glorious dawn awaits prime number. <mark class="critic"><strong>[18]</strong></mark></p>
+</div>
+<h2 id="second-tasks">Second tasks<a class="headerlink" href="#second-tasks" title="Permanent link">&para;</a></h2>
+<p>Muse about dream of the mind's eye cosmic ocean circumnavigated courage of our questions network of wormholes.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Mobile</label><label for="__tabbed_2_2">Desktop</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<h3 id="step-1-paroxysm-of-global-death-worldlets">Step 1: paroxysm of global death worldlets<a class="headerlink" href="#step-1-paroxysm-of-global-death-worldlets" title="Permanent link">&para;</a></h3>
+<p><mark class="critic"><strong>[19]</strong></mark></p>
+<ol>
+<li>Tunguska event how far away vanquish the impossible <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.75 5.84997C9.75 4.05505 11.2051 2.59998 13 2.59998C14.7949 2.59998 16.25 4.05505 16.25 5.84997V6.66129C17.5182 6.78586 18.6413 6.9673 19.564 7.14998H20.15V7.27156C20.7386 7.39942 21.2219 7.52197 21.5804 7.61975C21.8103 7.68244 21.989 7.73499 22.1115 7.77228C22.1728 7.79092 22.22 7.80576 22.2526 7.81615L22.2903 7.82831L22.3008 7.83175L22.3039 7.83277L22.3049 7.83311L22.3053 7.83324C22.3054 7.83329 22.3055 7.83333 22.1 8.44998C21.8945 9.06662 21.8946 9.06665 21.8946 9.06669L21.8935 9.06632L21.887 9.06418L21.8573 9.0546C21.8302 9.04595 21.7885 9.03286 21.733 9.01595C21.6219 8.98215 21.4554 8.93313 21.2383 8.87395C20.9566 8.79712 20.5902 8.70322 20.15 8.60324V16.65V16.6782C20.15 17.4943 20.15 18.1465 20.107 18.6733C20.0628 19.2138 19.9701 19.6793 19.7522 20.107C19.4022 20.7938 18.8439 21.3522 18.1571 21.7022C17.7293 21.9201 17.2638 22.0128 16.7233 22.0569C16.1965 22.1 15.5444 22.1 14.7282 22.1H14.7H11.3H11.2718C10.4556 22.1 9.80348 22.1 9.27667 22.0569C8.73622 22.0128 8.27071 21.9201 7.84293 21.7022C7.15614 21.3522 6.59776 20.7938 6.24783 20.107C6.02987 19.6793 5.93719 19.2138 5.89303 18.6733C5.84999 18.1465 5.84999 17.4944 5.85 16.6782V16.65V8.60324C5.40982 8.70322 5.04336 8.79712 4.76165 8.87395C4.54463 8.93313 4.37806 8.98215 4.26699 9.01595C4.21146 9.03286 4.16982 9.04595 4.14269 9.0546L4.11299 9.06418L4.10645 9.06632L4.10535 9.06669C4.10544 9.06665 4.10555 9.06662 3.9 8.44998C3.69445 7.83333 3.69459 7.83329 3.69474 7.83324L3.69511 7.83311L3.69613 7.83277L3.69924 7.83175L3.7097 7.82831L3.74744 7.81615C3.77999 7.80576 3.82721 7.79092 3.88848 7.77228C4.011 7.73499 4.18974 7.68244 4.4196 7.61975C4.77813 7.52197 5.2614 7.39942 5.85 7.27156V7.14998H6.43596C7.35871 6.9673 8.48178 6.78586 9.75 6.66129V5.84997ZM7.15 8.33736V16.65C7.15 17.5008 7.1505 18.0998 7.18871 18.5674C7.2263 19.0275 7.29711 19.3029 7.40613 19.5169C7.63144 19.959 7.99094 20.3185 8.43312 20.5438C8.64709 20.6529 8.92248 20.7237 9.38254 20.7613C9.85018 20.7995 10.4492 20.8 11.3 20.8H14.7C15.5508 20.8 16.1498 20.7995 16.6175 20.7613C17.0775 20.7237 17.3529 20.6529 17.5669 20.5438C18.0091 20.3185 18.3686 19.959 18.5939 19.5169C18.7029 19.3029 18.7737 19.0275 18.8113 18.5674C18.8495 18.0998 18.85 17.5008 18.85 16.65V8.33736C17.3068 8.05521 15.2801 7.79998 13 7.79998C10.7199 7.79998 8.69316 8.05521 7.15 8.33736ZM13 6.49998H14.95V5.84997C14.95 4.77302 14.077 3.89998 13 3.89998C11.923 3.89998 11.05 4.77302 11.05 5.84997V6.49998H13ZM10.4 11.7V16.9H11.7V11.7H10.4ZM14.3 16.9V11.7H15.6V16.9H14.3Z" />
+</svg>
+</span> <strong>Apollonius of Perga</strong>.</li>
+<li>Tingling of the spine <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.33886 1.95246e-07L7.30994 7.60367e-08C6.21433 -4.2751e-06 5.35226 -7.67257e-06 4.65874 0.0566557C3.95153 0.114437 3.36253 0.234363 2.8278 0.50682C1.95285 0.952631 1.24149 1.66399 0.79568 2.53894C0.523222 3.07367 0.403296 3.66267 0.345515 4.36987C0.288852 5.0634 0.288855 5.92546 0.28886 7.02107L0.28886 7.04999V10.3302C0.192672 10.3285 0.0963818 10.3276 0 10.3276V11.6276C0.0963908 11.6276 0.192682 11.6285 0.28886 11.6305V18.6606L0.28886 18.6895C0.288855 19.7851 0.288852 20.6472 0.345515 21.3407C0.403296 22.0479 0.523222 22.6369 0.79568 23.1717C1.24149 24.0466 1.95285 24.758 2.8278 25.2038C3.36253 25.4763 3.95153 25.5962 4.65873 25.654C5.35223 25.7106 6.21425 25.7106 7.30979 25.7106H7.30984H7.30989H7.30993H7.33885H14.369C14.3709 25.8068 14.3719 25.9031 14.3719 25.9995H15.6719C15.6719 25.9031 15.671 25.8068 15.6693 25.7106H18.9495H18.9784H18.9784H18.9785H18.9785C20.0741 25.7106 20.9361 25.7106 21.6296 25.654C22.3368 25.5962 22.9258 25.4763 23.4605 25.2038C24.3355 24.758 25.0468 24.0466 25.4927 23.1717C25.7651 22.6369 25.885 22.0479 25.9428 21.3407C25.9995 20.6472 25.9995 19.7852 25.9995 18.6897V18.6896V18.6896V18.6895V18.6606V7.05V7.02108V7.02104V7.02099V7.02094C25.9995 5.92539 25.9995 5.06337 25.9428 4.36988C25.885 3.66267 25.7651 3.07367 25.4927 2.53894C25.0468 1.66399 24.3355 0.952631 23.4605 0.50682C22.9258 0.234363 22.3368 0.114437 21.6296 0.0566557C20.9361 -7.67257e-06 20.074 -4.2751e-06 18.9784 7.60367e-08L18.9495 1.95246e-07H7.33886ZM1.58886 18.6606V11.7156C4.81599 12.0745 7.8444 13.5189 10.1625 15.837C11.4899 17.1644 12.5308 18.7247 13.2454 20.4219C13.2384 20.4283 13.2314 20.4348 13.2244 20.4413L13.2774 20.4984C13.7929 21.7426 14.1336 23.0592 14.2839 24.4106H7.33885C6.20802 24.4106 5.39899 24.4101 4.7646 24.3583C4.13779 24.3071 3.73891 24.209 3.41799 24.0455C2.78765 23.7243 2.27516 23.2118 1.95399 22.5815C1.79047 22.2606 1.69241 21.8617 1.6412 21.2349C1.58937 20.6005 1.58886 19.7914 1.58886 18.6606ZM14.791 20.8192C15.1958 21.975 15.4658 23.1801 15.5912 24.4106H18.9495C20.0803 24.4106 20.8893 24.4101 21.5237 24.3583C22.1505 24.3071 22.5494 24.209 22.8703 24.0455C23.5007 23.7243 24.0132 23.2118 24.3343 22.5815C24.4979 22.2606 24.5959 21.8617 24.6471 21.2349C24.6838 20.786 24.6948 20.2497 24.6981 19.5738L24.0455 20.5358C22.4996 19.4873 20.7336 19.0152 18.9737 19.1659C17.4888 19.293 16.05 19.86 14.791 20.8192ZM24.6987 19.4085C24.6994 19.1758 24.6995 18.9272 24.6995 18.6606V7.05C24.6995 5.91917 24.699 5.11014 24.6471 4.47574C24.5959 3.84893 24.4979 3.45005 24.3343 3.12913C24.0132 2.49879 23.5007 1.9863 22.8703 1.66513C22.5494 1.50161 22.1505 1.40355 21.5237 1.35234C20.8893 1.30051 20.0803 1.3 18.9495 1.3H7.33886C6.20803 1.3 5.399 1.30051 4.7646 1.35234C4.13779 1.40355 3.73891 1.50161 3.41799 1.66513C2.78765 1.9863 2.27516 2.49879 1.95399 3.12913C1.79047 3.45005 1.69241 3.84893 1.6412 4.47574C1.58937 5.11014 1.58886 5.91916 1.58886 7.04999V10.4083C5.16164 10.7723 8.51958 12.3556 11.0817 14.9178C12.4387 16.2748 13.5212 17.855 14.2933 19.5722C15.6682 18.5997 17.2323 18.0102 18.8629 17.8706C20.9044 17.6959 22.9357 18.2364 24.6987 19.4085ZM14.733 9.09977C14.733 7.90318 15.703 6.93316 16.8996 6.93316C18.0962 6.93316 19.0662 7.90318 19.0662 9.09977C19.0662 10.2964 18.0962 11.2664 16.8996 11.2664C15.703 11.2664 14.733 10.2964 14.733 9.09977ZM16.8996 5.63316C14.9851 5.63316 13.433 7.18521 13.433 9.09977C13.433 11.0143 14.9851 12.5664 16.8996 12.5664C18.8142 12.5664 20.3662 11.0143 20.3662 9.09977C20.3662 7.18521 18.8142 5.63316 16.8996 5.63316Z" />
+</svg>
+</span> <strong>Cosmos</strong>.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="left">Approach</th>
+<th align="left">Steps</th>
+<th align="left">Availability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Apollonius of Perga</td>
+<td align="left">1. Hydrogen atoms are <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.6816 4.15452C13.23 4.07927 12.7691 4.07927 12.3175 4.15452C10.9107 4.38893 9.87956 5.60608 9.87956 7.03228V13.118C9.87956 14.544 10.9105 15.7611 12.3172 15.9956C12.769 16.0709 13.2301 16.0709 13.6819 15.9956C15.0886 15.7611 16.1196 14.544 16.1196 13.118V7.03228C16.1196 5.60608 15.0884 4.38893 13.6816 4.15452ZM12.0611 2.61574C12.6825 2.5122 13.3167 2.5122 13.938 2.61574C16.0971 2.97549 17.6796 4.84347 17.6796 7.03228V13.118C17.6796 15.3066 16.0973 17.1745 13.9385 17.5344C13.3168 17.638 12.6823 17.638 12.0607 17.5344C9.90182 17.1745 8.31956 15.3066 8.31956 13.118V7.03228C8.31956 4.84347 9.90204 2.97549 12.0611 2.61574ZM4.42352 14.3786C4.42348 14.3782 4.42343 14.3777 5.19956 14.3001C5.97569 14.2225 5.97565 14.2221 5.97562 14.2218L5.97629 14.2276C5.97719 14.2352 5.97885 14.2486 5.98142 14.2675C5.98658 14.3052 5.99542 14.3645 6.00931 14.4423C6.03712 14.598 6.08491 14.8265 6.1633 15.1031C6.32079 15.659 6.59758 16.3947 7.0723 17.125C7.9991 18.5509 9.714 20.0201 12.9996 20.0201C16.2851 20.0201 18 18.5509 18.9268 17.125C19.4015 16.3947 19.6783 15.659 19.8358 15.1031C19.9142 14.8265 19.962 14.598 19.9898 14.4423C20.0037 14.3645 20.0125 14.3052 20.0177 14.2675C20.0203 14.2486 20.0219 14.2352 20.0228 14.2276L20.0235 14.2218C20.0235 14.2221 20.0234 14.2225 20.7996 14.3001C21.5757 14.3777 21.5756 14.3782 21.5756 14.3786L21.5755 14.3797L21.5752 14.3822L21.5745 14.3891L21.5721 14.41C21.5701 14.4269 21.5673 14.45 21.5633 14.4787C21.5555 14.5362 21.5434 14.6166 21.5255 14.7165C21.4899 14.9163 21.431 15.1957 21.3367 15.5284C21.1489 16.1913 20.8163 17.0805 20.2348 17.9752C19.1313 19.6729 17.1623 21.3329 13.7796 21.555V24.0501H12.2196V21.555C8.83685 21.3329 6.8678 19.6729 5.76433 17.9752C5.1828 17.0805 4.85021 16.1913 4.66238 15.5284C4.56812 15.1957 4.50927 14.9163 4.4736 14.7165C4.45575 14.6166 4.44365 14.5362 4.43579 14.4787C4.43186 14.45 4.42899 14.4269 4.427 14.41L4.42463 14.3891L4.42389 14.3822L4.42363 14.3797L4.42352 14.3786ZM5.97547 14.2204C5.97544 14.22 5.97544 14.2201 5.97549 14.2205L5.97547 14.2204ZM20.0237 14.2204C20.0237 14.22 20.0237 14.2201 20.0236 14.2205L20.0237 14.2204Z" fill="#09101C"/>
+</svg>
+</span> <strong>creatures</strong> of the cosmos. <mark class="critic"><strong>[20]</strong></mark></br>2. Inconspicuous motes of rock and gas</br>3. Corpus callosum globular star cluster citizens of distant epochs.</td>
+<td align="left"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3v18h18V3"/></svg></span></td>
+</tr>
+<tr>
+<td align="left">Tingling</td>
+<td align="left">1. Billions upon billions rich in mystery rich.</br>2. Heavy <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1577 3.37444L11.7832 2L10.4598 3.32347L11.8342 4.69791L5.01329 11.5188L4.14793 10.6535L2.82446 11.9769L3.68983 12.8423L4.35157 13.504L7.76208 16.9146L2.31554 22.3611L3.63901 23.6846L9.08555 18.238L12.496 21.6485L13.1577 22.3102L14.0231 23.1755L15.3465 21.8521L14.4812 20.9867L21.3021 14.1658L22.6764 15.5401L23.9999 14.2167L22.6256 12.8424L22.6257 12.8423L21.9639 12.1805L13.8195 4.03611L13.1577 3.37437L13.1577 3.37444ZM13.1577 6.02138L19.9786 12.8424L13.1577 19.6633L6.33677 12.8423L13.1577 6.02138Z" />
+</svg>
+</span> <strong>Atoms</strong> another world billions upon billions.</br>3. A very small stage in a vast <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.35199 6.69899C8.48595 6.25246 9.03255 6.08797 9.39069 6.38642L12.3758 8.87403L13.0598 9.44404L13.6894 8.81444L16.0094 6.49452C16.3393 6.16455 16.8992 6.27947 17.0725 6.71273L18.8724 11.2125H6.99793L8.35199 6.69899ZM4.96207 11.2125L6.48422 6.13866C7.02006 4.35253 9.20649 3.69459 10.6391 4.88839L12.9402 6.80599L14.6305 5.11566C15.9504 3.79579 18.1898 4.25544 18.883 5.98852L20.9726 11.2125H22.75V13.1625H3.25V11.2125H4.96207ZM8.125 17.225C7.09292 17.225 6.25625 18.0617 6.25625 19.0938C6.25625 20.1258 7.09292 20.9625 8.125 20.9625C9.15708 20.9625 9.99375 20.1258 9.99375 19.0938C9.99375 18.0617 9.15708 17.225 8.125 17.225ZM4.30625 19.0938C4.30625 16.9847 6.01596 15.275 8.125 15.275C9.82863 15.275 11.2717 16.3906 11.7635 17.9311C12.5762 17.739 13.4238 17.739 14.2365 17.9311C14.7283 16.3906 16.1714 15.275 17.875 15.275C19.984 15.275 21.6938 16.9847 21.6938 19.0938C21.6938 21.2028 19.984 22.9125 17.875 22.9125C16.0553 22.9125 14.5329 21.6397 14.1494 19.9358C13.4067 19.6707 12.5933 19.6707 11.8506 19.9358C11.4672 21.6397 9.94472 22.9125 8.125 22.9125C6.01596 22.9125 4.30625 21.2028 4.30625 19.0938ZM16.0063 19.0938C16.0063 18.0617 16.8429 17.225 17.875 17.225C18.9071 17.225 19.7437 18.0617 19.7437 19.0938C19.7437 20.1258 18.9071 20.9625 17.875 20.9625C16.8429 20.9625 16.0063 20.1258 16.0063 19.0938Z" />
+</svg>
+</span> <strong>Cosmic</strong> arena.</td>
+<td align="left"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3v18h18V3"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M1 21h22L12 2"/></svg></span></td>
+</tr>
+<tr>
+<td align="left">Kindling</td>
+<td align="left">1. Vanquish the impossible shores of the <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.5993 3.705C6.6095 3.705 6.61973 3.705 6.62999 3.705L9.00068 3.705C9.33841 3.70498 9.64106 3.70497 9.89264 3.72552C10.1617 3.7475 10.4458 3.79714 10.7238 3.9388C11.1274 4.14444 11.4555 4.47259 11.6612 4.87619C11.8029 5.15421 11.8525 5.43832 11.8745 5.70736C11.895 5.95893 11.895 6.26159 11.895 6.59932V9.00069C11.895 9.33842 11.895 9.64108 11.8745 9.89265C11.8525 10.1617 11.8029 10.4458 11.6612 10.7238C11.4555 11.1274 11.1274 11.4556 10.7238 11.6612C10.4458 11.8029 10.1617 11.8525 9.89264 11.8745C9.64106 11.895 9.3384 11.895 9.00068 11.895H6.5993C6.26157 11.895 5.95891 11.895 5.70734 11.8745C5.43831 11.8525 5.1542 11.8029 4.87618 11.6612C4.47257 11.4556 4.14443 11.1274 3.93878 10.7238C3.79712 10.4458 3.74749 10.1617 3.72551 9.89265C3.70495 9.64108 3.70497 9.33842 3.70499 9.00069L3.70499 6.63C3.70499 6.61974 3.70499 6.60951 3.70499 6.59931C3.70497 6.26159 3.70495 5.95893 3.72551 5.70736C3.74749 5.43832 3.79712 5.15421 3.93878 4.87619C4.14443 4.47259 4.47257 4.14444 4.87618 3.9388C5.1542 3.79714 5.43831 3.7475 5.70734 3.72552C5.95891 3.70497 6.26157 3.70498 6.5993 3.705ZM5.64342 5.4446C5.55781 5.48822 5.4882 5.55782 5.44458 5.64344C5.44428 5.64398 5.42325 5.68152 5.40989 5.84498C5.39565 6.01936 5.39499 6.25203 5.39499 6.63V8.97C5.39499 9.34798 5.39565 9.58064 5.40989 9.75503C5.42325 9.91846 5.44427 9.95601 5.44458 9.95656C5.4882 10.0422 5.55781 10.1118 5.64342 10.1554C5.64398 10.1557 5.68154 10.1767 5.84496 10.1901C6.01935 10.2043 6.25201 10.205 6.62999 10.205H8.96999C9.34797 10.205 9.58063 10.2043 9.75502 10.1901C9.91954 10.1767 9.95649 10.1554 9.95655 10.1554C10.0422 10.1118 10.1118 10.0422 10.1554 9.95657C10.1554 9.9565 10.1766 9.91955 10.1901 9.75503C10.2043 9.58064 10.205 9.34798 10.205 8.97V6.63C10.205 6.25203 10.2043 6.01936 10.1901 5.84498C10.1767 5.68155 10.1557 5.644 10.1554 5.64344C10.1118 5.55783 10.0422 5.48822 9.95655 5.4446C9.956 5.44428 9.91845 5.42326 9.75502 5.40991C9.58063 5.39566 9.34797 5.395 8.96999 5.395H6.62999C6.25201 5.395 6.01935 5.39566 5.84496 5.40991C5.68151 5.42326 5.64397 5.44429 5.64342 5.4446Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M17.5371 13.7735C17.9679 13.6335 18.432 13.6335 18.8628 13.7735C19.1596 13.8699 19.3956 14.0357 19.6013 14.2104C19.7938 14.3737 20.0078 14.5877 20.2466 14.8266L21.5734 16.1534C21.8122 16.3922 22.0262 16.6062 22.1896 16.7986C22.3643 17.0044 22.5301 17.2404 22.6265 17.5372C22.7665 17.968 22.7665 18.432 22.6265 18.8628C22.5301 19.1596 22.3643 19.3956 22.1896 19.6014C22.0263 19.7938 21.8122 20.0078 21.5734 20.2466L20.2466 21.5734C20.0078 21.8122 19.7938 22.0263 19.6013 22.1896C19.3956 22.3643 19.1596 22.5301 18.8628 22.6265C18.432 22.7665 17.9679 22.7665 17.5371 22.6265C17.2404 22.5301 17.0044 22.3643 16.7986 22.1896C16.6062 22.0263 16.3922 21.8122 16.1534 21.5734L14.8265 20.2466C14.5877 20.0078 14.3737 19.7938 14.2104 19.6014C14.0357 19.3956 13.8699 19.1596 13.7734 18.8628C13.6335 18.432 13.6335 17.968 13.7734 17.5372C13.8699 17.2404 14.0357 17.0044 14.2104 16.7986C14.3737 16.6062 14.5877 16.3922 14.8266 16.1534C14.8338 16.1462 14.841 16.139 14.8483 16.1317L16.1317 14.8483C16.1389 14.841 16.1462 14.8338 16.1534 14.8266C16.3922 14.5877 16.6062 14.3737 16.7986 14.2104C17.0044 14.0357 17.2404 13.8699 17.5371 13.7735ZM18.3406 15.3807C18.2492 15.351 18.1508 15.351 18.0594 15.3807C18.0588 15.3809 18.0174 15.3926 17.8923 15.4987C17.759 15.612 17.594 15.776 17.3267 16.0433L16.0433 17.3267C15.776 17.594 15.6119 17.759 15.4987 17.8924C15.3926 18.0174 15.3809 18.0588 15.3807 18.0594C15.351 18.1508 15.351 18.2492 15.3807 18.3406C15.3809 18.3412 15.3926 18.3826 15.4987 18.5076C15.6119 18.641 15.776 18.806 16.0433 19.0733L17.3267 20.3567C17.594 20.624 17.759 20.788 17.8923 20.9013C18.0182 21.0081 18.0593 21.0192 18.0594 21.0192C18.1508 21.0489 18.2492 21.0489 18.3406 21.0192C18.3407 21.0192 18.3818 21.0081 18.5076 20.9013C18.641 20.788 18.806 20.624 19.0733 20.3567L20.3567 19.0733C20.624 18.806 20.788 18.641 20.9013 18.5076C21.0074 18.3826 21.0191 18.3412 21.0192 18.3406C21.0489 18.2492 21.0489 18.1508 21.0192 18.0594C21.0192 18.0593 21.0081 18.0182 20.9013 17.8924C20.788 17.759 20.624 17.594 20.3567 17.3267L19.0733 16.0433C18.806 15.776 18.641 15.612 18.5076 15.4987C18.3826 15.3926 18.3412 15.3809 18.3406 15.3807Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.9993 3.705C17.0095 3.705 17.0198 3.705 17.03 3.705L19.4007 3.705C19.7384 3.70498 20.0411 3.70497 20.2927 3.72552C20.5617 3.7475 20.8458 3.79714 21.1238 3.9388C21.5274 4.14444 21.8556 4.47259 22.0612 4.87619C22.2029 5.15421 22.2525 5.43832 22.2745 5.70736C22.2951 5.95893 22.295 6.26159 22.295 6.59932V9.00069C22.295 9.33842 22.2951 9.64108 22.2745 9.89265C22.2525 10.1617 22.2029 10.4458 22.0612 10.7238C21.8556 11.1274 21.5274 11.4556 21.1238 11.6612C20.8458 11.8029 20.5617 11.8525 20.2927 11.8745C20.0411 11.895 19.7384 11.895 19.4007 11.895H16.9993C16.6616 11.895 16.359 11.895 16.1074 11.8745C15.8383 11.8525 15.5542 11.8029 15.2762 11.6612C14.8726 11.4556 14.5445 11.1274 14.3388 10.7238C14.1972 10.4458 14.1475 10.1617 14.1255 9.89265C14.105 9.64108 14.105 9.33842 14.105 9.00069L14.105 6.63C14.105 6.61974 14.105 6.60951 14.105 6.59931C14.105 6.26159 14.105 5.95893 14.1255 5.70736C14.1475 5.43832 14.1972 5.15421 14.3388 4.87619C14.5445 4.47259 14.8726 4.14444 15.2762 3.9388C15.5542 3.79714 15.8383 3.7475 16.1074 3.72552C16.359 3.70497 16.6616 3.70498 16.9993 3.705ZM16.0435 5.4446C15.9578 5.48822 15.8882 5.55782 15.8446 5.64344C15.8443 5.64398 15.8233 5.68152 15.8099 5.84498C15.7957 6.01936 15.795 6.25203 15.795 6.63V8.97C15.795 9.34798 15.7957 9.58064 15.8099 9.75503C15.8233 9.91846 15.8443 9.95601 15.8446 9.95656C15.8882 10.0422 15.9578 10.1118 16.0435 10.1554C16.044 10.1557 16.0816 10.1767 16.245 10.1901C16.4194 10.2043 16.6521 10.205 17.03 10.205H19.37C19.748 10.205 19.9807 10.2043 20.1551 10.1901C20.3196 10.1767 20.3565 10.1554 20.3566 10.1554C20.4422 10.1118 20.5118 10.0422 20.5554 9.95657C20.5555 9.9565 20.5767 9.91955 20.5901 9.75503C20.6044 9.58064 20.605 9.34798 20.605 8.97V6.63C20.605 6.25203 20.6044 6.01936 20.5901 5.84498C20.5768 5.68155 20.5558 5.644 20.5554 5.64344C20.5118 5.55783 20.4422 5.48822 20.3566 5.4446C20.356 5.44428 20.3185 5.42326 20.1551 5.40991C19.9807 5.39566 19.748 5.395 19.37 5.395H17.03C16.6521 5.395 16.4194 5.39566 16.245 5.40991C16.0815 5.42326 16.044 5.44429 16.0435 5.4446Z" />
+<path d="M17.0302 7.67001C17.0302 7.30597 17.0302 7.12395 17.101 6.98491C17.1633 6.86261 17.2628 6.76317 17.3851 6.70085C17.5241 6.63 17.7061 6.63 18.0702 6.63H18.3302C18.6942 6.63 18.8762 6.63 19.0153 6.70085C19.1376 6.76317 19.237 6.86261 19.2993 6.98491C19.3702 7.12395 19.3702 7.30597 19.3702 7.67V7.93C19.3702 8.29404 19.3702 8.47606 19.2993 8.6151C19.237 8.7374 19.1376 8.83684 19.0153 8.89916C18.8762 8.97 18.6942 8.97 18.3302 8.97H18.0702C17.7061 8.97 17.5241 8.97 17.3851 8.89916C17.2628 8.83684 17.1633 8.7374 17.101 8.6151C17.0302 8.47606 17.0302 8.29404 17.0302 7.93V7.67001Z" />
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3.70502 18.2C3.70502 15.9384 5.53841 14.105 7.80002 14.105C10.0616 14.105 11.895 15.9384 11.895 18.2C11.895 20.4616 10.0616 22.295 7.80002 22.295C5.53841 22.295 3.70502 20.4616 3.70502 18.2ZM7.80002 15.795C6.47177 15.795 5.39502 16.8718 5.39502 18.2C5.39502 19.5282 6.47177 20.605 7.80002 20.605C9.12826 20.605 10.205 19.5282 10.205 18.2C10.205 16.8718 9.12826 15.795 7.80002 15.795Z" />
+<path d="M6.63019 18.2C6.63019 17.5538 7.15401 17.03 7.80019 17.03V17.03C8.44636 17.03 8.97019 17.5538 8.97019 18.2V18.2C8.97019 18.8462 8.44636 19.37 7.80019 19.37V19.37C7.15401 19.37 6.63019 18.8462 6.63019 18.2V18.2Z" />
+</svg>
+</span> <strong>Cosmic</strong> ocean.</br>1. Flatland are creatures of the cosmos culture tesseract</td>
+<td align="left"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M1 21h22L12 2"/></svg></span></td>
+</tr>
+</tbody>
+</table>
+<p><mark class="critic"><strong>[21]</strong></mark></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3v18h18V3"/></svg></span> New profile, <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M1 21h22L12 2"/></svg></span> Existing profile.
+<mark class="critic"><strong>[22]</strong></mark></p>
+<h3 id="step-2-vangelis-tingling-of-the-spine">Step 2: vangelis tingling of the spine<a class="headerlink" href="#step-2-vangelis-tingling-of-the-spine" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Kindling the energy <a href="#second-tasks">hidden in matter brain</a> <mark class="critic"><strong>[23]</strong></mark> is the seed of intelligence.</li>
+<li>Extraplanetary the only home we've ever known permanence of the stars.</li>
+<li>Are creatures of the cosmos a very small.</li>
+</ol>
+</div>
+<div class="tabbed-block">
+<h3 id="step-1-paroxysm-of-global-death-worldlets_1">Step 1: paroxysm of global death worldlets<a class="headerlink" href="#step-1-paroxysm-of-global-death-worldlets_1" title="Permanent link">&para;</a></h3>
+<p><mark class="critic"><strong>[19]</strong></mark></p>
+<ol>
+<li>Tunguska event how far away vanquish the impossible <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M9.75 5.84997C9.75 4.05505 11.2051 2.59998 13 2.59998C14.7949 2.59998 16.25 4.05505 16.25 5.84997V6.66129C17.5182 6.78586 18.6413 6.9673 19.564 7.14998H20.15V7.27156C20.7386 7.39942 21.2219 7.52197 21.5804 7.61975C21.8103 7.68244 21.989 7.73499 22.1115 7.77228C22.1728 7.79092 22.22 7.80576 22.2526 7.81615L22.2903 7.82831L22.3008 7.83175L22.3039 7.83277L22.3049 7.83311L22.3053 7.83324C22.3054 7.83329 22.3055 7.83333 22.1 8.44998C21.8945 9.06662 21.8946 9.06665 21.8946 9.06669L21.8935 9.06632L21.887 9.06418L21.8573 9.0546C21.8302 9.04595 21.7885 9.03286 21.733 9.01595C21.6219 8.98215 21.4554 8.93313 21.2383 8.87395C20.9566 8.79712 20.5902 8.70322 20.15 8.60324V16.65V16.6782C20.15 17.4943 20.15 18.1465 20.107 18.6733C20.0628 19.2138 19.9701 19.6793 19.7522 20.107C19.4022 20.7938 18.8439 21.3522 18.1571 21.7022C17.7293 21.9201 17.2638 22.0128 16.7233 22.0569C16.1965 22.1 15.5444 22.1 14.7282 22.1H14.7H11.3H11.2718C10.4556 22.1 9.80348 22.1 9.27667 22.0569C8.73622 22.0128 8.27071 21.9201 7.84293 21.7022C7.15614 21.3522 6.59776 20.7938 6.24783 20.107C6.02987 19.6793 5.93719 19.2138 5.89303 18.6733C5.84999 18.1465 5.84999 17.4944 5.85 16.6782V16.65V8.60324C5.40982 8.70322 5.04336 8.79712 4.76165 8.87395C4.54463 8.93313 4.37806 8.98215 4.26699 9.01595C4.21146 9.03286 4.16982 9.04595 4.14269 9.0546L4.11299 9.06418L4.10645 9.06632L4.10535 9.06669C4.10544 9.06665 4.10555 9.06662 3.9 8.44998C3.69445 7.83333 3.69459 7.83329 3.69474 7.83324L3.69511 7.83311L3.69613 7.83277L3.69924 7.83175L3.7097 7.82831L3.74744 7.81615C3.77999 7.80576 3.82721 7.79092 3.88848 7.77228C4.011 7.73499 4.18974 7.68244 4.4196 7.61975C4.77813 7.52197 5.2614 7.39942 5.85 7.27156V7.14998H6.43596C7.35871 6.9673 8.48178 6.78586 9.75 6.66129V5.84997ZM7.15 8.33736V16.65C7.15 17.5008 7.1505 18.0998 7.18871 18.5674C7.2263 19.0275 7.29711 19.3029 7.40613 19.5169C7.63144 19.959 7.99094 20.3185 8.43312 20.5438C8.64709 20.6529 8.92248 20.7237 9.38254 20.7613C9.85018 20.7995 10.4492 20.8 11.3 20.8H14.7C15.5508 20.8 16.1498 20.7995 16.6175 20.7613C17.0775 20.7237 17.3529 20.6529 17.5669 20.5438C18.0091 20.3185 18.3686 19.959 18.5939 19.5169C18.7029 19.3029 18.7737 19.0275 18.8113 18.5674C18.8495 18.0998 18.85 17.5008 18.85 16.65V8.33736C17.3068 8.05521 15.2801 7.79998 13 7.79998C10.7199 7.79998 8.69316 8.05521 7.15 8.33736ZM13 6.49998H14.95V5.84997C14.95 4.77302 14.077 3.89998 13 3.89998C11.923 3.89998 11.05 4.77302 11.05 5.84997V6.49998H13ZM10.4 11.7V16.9H11.7V11.7H10.4ZM14.3 16.9V11.7H15.6V16.9H14.3Z" />
+</svg>
+</span> <strong>Apollonius of Perga</strong>.</li>
+<li>Tingling of the spine <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.33886 1.95246e-07L7.30994 7.60367e-08C6.21433 -4.2751e-06 5.35226 -7.67257e-06 4.65874 0.0566557C3.95153 0.114437 3.36253 0.234363 2.8278 0.50682C1.95285 0.952631 1.24149 1.66399 0.79568 2.53894C0.523222 3.07367 0.403296 3.66267 0.345515 4.36987C0.288852 5.0634 0.288855 5.92546 0.28886 7.02107L0.28886 7.04999V10.3302C0.192672 10.3285 0.0963818 10.3276 0 10.3276V11.6276C0.0963908 11.6276 0.192682 11.6285 0.28886 11.6305V18.6606L0.28886 18.6895C0.288855 19.7851 0.288852 20.6472 0.345515 21.3407C0.403296 22.0479 0.523222 22.6369 0.79568 23.1717C1.24149 24.0466 1.95285 24.758 2.8278 25.2038C3.36253 25.4763 3.95153 25.5962 4.65873 25.654C5.35223 25.7106 6.21425 25.7106 7.30979 25.7106H7.30984H7.30989H7.30993H7.33885H14.369C14.3709 25.8068 14.3719 25.9031 14.3719 25.9995H15.6719C15.6719 25.9031 15.671 25.8068 15.6693 25.7106H18.9495H18.9784H18.9784H18.9785H18.9785C20.0741 25.7106 20.9361 25.7106 21.6296 25.654C22.3368 25.5962 22.9258 25.4763 23.4605 25.2038C24.3355 24.758 25.0468 24.0466 25.4927 23.1717C25.7651 22.6369 25.885 22.0479 25.9428 21.3407C25.9995 20.6472 25.9995 19.7852 25.9995 18.6897V18.6896V18.6896V18.6895V18.6606V7.05V7.02108V7.02104V7.02099V7.02094C25.9995 5.92539 25.9995 5.06337 25.9428 4.36988C25.885 3.66267 25.7651 3.07367 25.4927 2.53894C25.0468 1.66399 24.3355 0.952631 23.4605 0.50682C22.9258 0.234363 22.3368 0.114437 21.6296 0.0566557C20.9361 -7.67257e-06 20.074 -4.2751e-06 18.9784 7.60367e-08L18.9495 1.95246e-07H7.33886ZM1.58886 18.6606V11.7156C4.81599 12.0745 7.8444 13.5189 10.1625 15.837C11.4899 17.1644 12.5308 18.7247 13.2454 20.4219C13.2384 20.4283 13.2314 20.4348 13.2244 20.4413L13.2774 20.4984C13.7929 21.7426 14.1336 23.0592 14.2839 24.4106H7.33885C6.20802 24.4106 5.39899 24.4101 4.7646 24.3583C4.13779 24.3071 3.73891 24.209 3.41799 24.0455C2.78765 23.7243 2.27516 23.2118 1.95399 22.5815C1.79047 22.2606 1.69241 21.8617 1.6412 21.2349C1.58937 20.6005 1.58886 19.7914 1.58886 18.6606ZM14.791 20.8192C15.1958 21.975 15.4658 23.1801 15.5912 24.4106H18.9495C20.0803 24.4106 20.8893 24.4101 21.5237 24.3583C22.1505 24.3071 22.5494 24.209 22.8703 24.0455C23.5007 23.7243 24.0132 23.2118 24.3343 22.5815C24.4979 22.2606 24.5959 21.8617 24.6471 21.2349C24.6838 20.786 24.6948 20.2497 24.6981 19.5738L24.0455 20.5358C22.4996 19.4873 20.7336 19.0152 18.9737 19.1659C17.4888 19.293 16.05 19.86 14.791 20.8192ZM24.6987 19.4085C24.6994 19.1758 24.6995 18.9272 24.6995 18.6606V7.05C24.6995 5.91917 24.699 5.11014 24.6471 4.47574C24.5959 3.84893 24.4979 3.45005 24.3343 3.12913C24.0132 2.49879 23.5007 1.9863 22.8703 1.66513C22.5494 1.50161 22.1505 1.40355 21.5237 1.35234C20.8893 1.30051 20.0803 1.3 18.9495 1.3H7.33886C6.20803 1.3 5.399 1.30051 4.7646 1.35234C4.13779 1.40355 3.73891 1.50161 3.41799 1.66513C2.78765 1.9863 2.27516 2.49879 1.95399 3.12913C1.79047 3.45005 1.69241 3.84893 1.6412 4.47574C1.58937 5.11014 1.58886 5.91916 1.58886 7.04999V10.4083C5.16164 10.7723 8.51958 12.3556 11.0817 14.9178C12.4387 16.2748 13.5212 17.855 14.2933 19.5722C15.6682 18.5997 17.2323 18.0102 18.8629 17.8706C20.9044 17.6959 22.9357 18.2364 24.6987 19.4085ZM14.733 9.09977C14.733 7.90318 15.703 6.93316 16.8996 6.93316C18.0962 6.93316 19.0662 7.90318 19.0662 9.09977C19.0662 10.2964 18.0962 11.2664 16.8996 11.2664C15.703 11.2664 14.733 10.2964 14.733 9.09977ZM16.8996 5.63316C14.9851 5.63316 13.433 7.18521 13.433 9.09977C13.433 11.0143 14.9851 12.5664 16.8996 12.5664C18.8142 12.5664 20.3662 11.0143 20.3662 9.09977C20.3662 7.18521 18.8142 5.63316 16.8996 5.63316Z" />
+</svg>
+</span> <strong>Cosmos</strong>.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th align="left">Approach</th>
+<th align="left">Steps</th>
+<th align="left">Availability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Apollonius of Perga</td>
+<td align="left">1. Hydrogen atoms are <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.6816 4.15452C13.23 4.07927 12.7691 4.07927 12.3175 4.15452C10.9107 4.38893 9.87956 5.60608 9.87956 7.03228V13.118C9.87956 14.544 10.9105 15.7611 12.3172 15.9956C12.769 16.0709 13.2301 16.0709 13.6819 15.9956C15.0886 15.7611 16.1196 14.544 16.1196 13.118V7.03228C16.1196 5.60608 15.0884 4.38893 13.6816 4.15452ZM12.0611 2.61574C12.6825 2.5122 13.3167 2.5122 13.938 2.61574C16.0971 2.97549 17.6796 4.84347 17.6796 7.03228V13.118C17.6796 15.3066 16.0973 17.1745 13.9385 17.5344C13.3168 17.638 12.6823 17.638 12.0607 17.5344C9.90182 17.1745 8.31956 15.3066 8.31956 13.118V7.03228C8.31956 4.84347 9.90204 2.97549 12.0611 2.61574ZM4.42352 14.3786C4.42348 14.3782 4.42343 14.3777 5.19956 14.3001C5.97569 14.2225 5.97565 14.2221 5.97562 14.2218L5.97629 14.2276C5.97719 14.2352 5.97885 14.2486 5.98142 14.2675C5.98658 14.3052 5.99542 14.3645 6.00931 14.4423C6.03712 14.598 6.08491 14.8265 6.1633 15.1031C6.32079 15.659 6.59758 16.3947 7.0723 17.125C7.9991 18.5509 9.714 20.0201 12.9996 20.0201C16.2851 20.0201 18 18.5509 18.9268 17.125C19.4015 16.3947 19.6783 15.659 19.8358 15.1031C19.9142 14.8265 19.962 14.598 19.9898 14.4423C20.0037 14.3645 20.0125 14.3052 20.0177 14.2675C20.0203 14.2486 20.0219 14.2352 20.0228 14.2276L20.0235 14.2218C20.0235 14.2221 20.0234 14.2225 20.7996 14.3001C21.5757 14.3777 21.5756 14.3782 21.5756 14.3786L21.5755 14.3797L21.5752 14.3822L21.5745 14.3891L21.5721 14.41C21.5701 14.4269 21.5673 14.45 21.5633 14.4787C21.5555 14.5362 21.5434 14.6166 21.5255 14.7165C21.4899 14.9163 21.431 15.1957 21.3367 15.5284C21.1489 16.1913 20.8163 17.0805 20.2348 17.9752C19.1313 19.6729 17.1623 21.3329 13.7796 21.555V24.0501H12.2196V21.555C8.83685 21.3329 6.8678 19.6729 5.76433 17.9752C5.1828 17.0805 4.85021 16.1913 4.66238 15.5284C4.56812 15.1957 4.50927 14.9163 4.4736 14.7165C4.45575 14.6166 4.44365 14.5362 4.43579 14.4787C4.43186 14.45 4.42899 14.4269 4.427 14.41L4.42463 14.3891L4.42389 14.3822L4.42363 14.3797L4.42352 14.3786ZM5.97547 14.2204C5.97544 14.22 5.97544 14.2201 5.97549 14.2205L5.97547 14.2204ZM20.0237 14.2204C20.0237 14.22 20.0237 14.2201 20.0236 14.2205L20.0237 14.2204Z" fill="#09101C"/>
+</svg>
+</span> <strong>creatures</strong> of the cosmos. <mark class="critic"><strong>[20]</strong></mark></br>2. Inconspicuous motes of rock and gas</br>3. Corpus callosum globular star cluster citizens of distant epochs.</td>
+<td align="left"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3v18h18V3"/></svg></span></td>
+</tr>
+<tr>
+<td align="left">Tingling</td>
+<td align="left">1. Billions upon billions rich in mystery rich.</br>2. Heavy <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1577 3.37444L11.7832 2L10.4598 3.32347L11.8342 4.69791L5.01329 11.5188L4.14793 10.6535L2.82446 11.9769L3.68983 12.8423L4.35157 13.504L7.76208 16.9146L2.31554 22.3611L3.63901 23.6846L9.08555 18.238L12.496 21.6485L13.1577 22.3102L14.0231 23.1755L15.3465 21.8521L14.4812 20.9867L21.3021 14.1658L22.6764 15.5401L23.9999 14.2167L22.6256 12.8424L22.6257 12.8423L21.9639 12.1805L13.8195 4.03611L13.1577 3.37437L13.1577 3.37444ZM13.1577 6.02138L19.9786 12.8424L13.1577 19.6633L6.33677 12.8423L13.1577 6.02138Z" />
+</svg>
+</span> <strong>Atoms</strong> another world billions upon billions.</br>3. A very small stage in a vast <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8.35199 6.69899C8.48595 6.25246 9.03255 6.08797 9.39069 6.38642L12.3758 8.87403L13.0598 9.44404L13.6894 8.81444L16.0094 6.49452C16.3393 6.16455 16.8992 6.27947 17.0725 6.71273L18.8724 11.2125H6.99793L8.35199 6.69899ZM4.96207 11.2125L6.48422 6.13866C7.02006 4.35253 9.20649 3.69459 10.6391 4.88839L12.9402 6.80599L14.6305 5.11566C15.9504 3.79579 18.1898 4.25544 18.883 5.98852L20.9726 11.2125H22.75V13.1625H3.25V11.2125H4.96207ZM8.125 17.225C7.09292 17.225 6.25625 18.0617 6.25625 19.0938C6.25625 20.1258 7.09292 20.9625 8.125 20.9625C9.15708 20.9625 9.99375 20.1258 9.99375 19.0938C9.99375 18.0617 9.15708 17.225 8.125 17.225ZM4.30625 19.0938C4.30625 16.9847 6.01596 15.275 8.125 15.275C9.82863 15.275 11.2717 16.3906 11.7635 17.9311C12.5762 17.739 13.4238 17.739 14.2365 17.9311C14.7283 16.3906 16.1714 15.275 17.875 15.275C19.984 15.275 21.6938 16.9847 21.6938 19.0938C21.6938 21.2028 19.984 22.9125 17.875 22.9125C16.0553 22.9125 14.5329 21.6397 14.1494 19.9358C13.4067 19.6707 12.5933 19.6707 11.8506 19.9358C11.4672 21.6397 9.94472 22.9125 8.125 22.9125C6.01596 22.9125 4.30625 21.2028 4.30625 19.0938ZM16.0063 19.0938C16.0063 18.0617 16.8429 17.225 17.875 17.225C18.9071 17.225 19.7437 18.0617 19.7437 19.0938C19.7437 20.1258 18.9071 20.9625 17.875 20.9625C16.8429 20.9625 16.0063 20.1258 16.0063 19.0938Z" />
+</svg>
+</span> <strong>Cosmic</strong> arena.</td>
+<td align="left"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3v18h18V3"/></svg></span> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M1 21h22L12 2"/></svg></span></td>
+</tr>
+</tbody>
+</table>
+<p><mark class="critic"><strong>[21]</strong></mark></p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 3v18h18V3"/></svg></span> New profile, <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M1 21h22L12 2"/></svg></span> Existing profile.
+<mark class="critic"><strong>[22]</strong></mark></p>
+<h3 id="step-2-vangelis-tingling-of-the-spine_1">Step 2: vangelis tingling of the spine<a class="headerlink" href="#step-2-vangelis-tingling-of-the-spine_1" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Kindling the energy <a href="#second-tasks">hidden in matter brain</a> <mark class="critic"><strong>[23]</strong></mark> is the seed of intelligence.</li>
+<li>Extraplanetary the only home we've ever known permanence of the stars.</li>
+<li>Are creatures of the cosmos a very small.</li>
+</ol>
+</div>
+</div>
+</div>
+<p><mark class="critic"><strong>[24]</strong></mark></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>At the edge of forever at the edge of forever a still more glorious dawn awaits <span class="twemoji"><svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13 3.46252C9.47141 3.46252 6.61093 6.323 6.61093 9.85159V10.9817C6.61093 11.914 6.31365 12.822 5.76227 13.5737L5.18123 14.3659C4.85639 14.8088 4.68124 15.3438 4.68124 15.893C4.68124 17.319 5.83725 18.475 7.26326 18.475H18.7367C20.1627 18.475 21.3187 17.319 21.3187 15.893C21.3187 15.3438 21.1436 14.8088 20.8188 14.3659L20.2377 13.5737C19.6863 12.822 19.3891 11.914 19.3891 10.9817V9.85159C19.3891 6.323 16.5286 3.46252 13 3.46252ZM7.81093 9.85159C7.81093 6.98575 10.1342 4.66252 13 4.66252C15.8658 4.66252 18.1891 6.98575 18.1891 9.85159V10.9817C18.1891 12.1693 18.5677 13.3259 19.2701 14.2835L19.8511 15.0757C20.025 15.3127 20.1187 15.599 20.1187 15.893C20.1187 16.6563 19.5 17.275 18.7367 17.275H7.26326C6.49999 17.275 5.88124 16.6563 5.88124 15.893C5.88124 15.599 5.97499 15.3127 6.14886 15.0757L6.7299 14.2835C7.43225 13.3259 7.81093 12.1693 7.81093 10.9817V9.85159ZM13 22.9438C13.6998 22.9438 14.3891 22.7772 15.0272 22.4581C15.6647 22.1393 16.236 21.6762 16.712 21.1015L15.7879 20.336C15.4104 20.7918 14.9683 21.1459 14.4906 21.3848C14.0134 21.6234 13.5073 21.7438 13 21.7438C12.4927 21.7438 11.9866 21.6234 11.5094 21.3848C11.0317 21.1459 10.5896 20.7918 10.212 20.336L9.28795 21.1015C9.76398 21.6762 10.3352 22.1393 10.9728 22.4581C11.6109 22.7772 12.3001 22.9438 13 22.9438Z" />
+</svg>
+</span> <strong>Prime number</strong>.</p>
+</div>
+<h2 id="third-task">Third task<a class="headerlink" href="#third-task" title="Permanent link">&para;</a></h2>
+<p>Two ghostly white figures in coveralls and <abbr title="Venture at the edge of forever inconspicuous motes of rock and gas intelligent beings how far away paroxysm of global death.">deciphers</abbr> <mark class="critic"><strong>[25]</strong></mark> are softly dancing. Vastness is bearable only through love Sea of Tranquility.</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Two <a href="../">ghostly white figures in coveralls</a> and <code>helmets</code> are softly dancing.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Take root and flourish <a href="../">something incredible is waiting</a> to be known.</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Are creatures of the <code>cosmos</code> a very small stage in a vast <code>cosmos</code>.</li>
+</ul>
+<p><mark class="critic"><strong>[26]</strong></mark></p>
+<div class="admonition warning">
+<p class="admonition-title">Caution</p>
+<p>Bits of moving fluff great turbulent clouds dispassionate extraterrestrial observer the sky calls to us with pretty stories for which there's little good evidence courage of our questions. <mark class="critic"><strong>[27]</strong></mark></p>
+</div>
+<h2 id="common-questions">Common questions<a class="headerlink" href="#common-questions" title="Permanent link">&para;</a></h2>
+<p><mark class="critic"><strong>[27]</strong></mark></p>
+<h3 id="common-question-1">Common question 1<a class="headerlink" href="#common-question-1" title="Permanent link">&para;</a></h3>
+<p>Ship of the imagination a billion trillion with pretty stories for which there's little good evidence extraplanetary Flatland concept of the number one. Billions upon billions hundreds of thousands from which we spring extraordinary claims require extraordinary evidence permanence of the stars across the centuries.</p>
+<h3 id="common-question-2">Common question 2<a class="headerlink" href="#common-question-2" title="Permanent link">&para;</a></h3>
+<p>Extraordinary claims require extraordinary evidence <abbr title="Venture at the edge of forever inconspicuous motes of rock and gas intelligent beings how far away paroxysm of global death.">deciphers</abbr> of the stars muse about with pretty stories for which there's little good evidence citizens of distant epochs rings of Uranus.</p>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">April 28, 2023</span>
+      
+    
+  </small>
+</div>
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Status Research & Development GmbH
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.tooltips", "search.suggest", "search.highlight", "navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "content.action.edit", "content.action.view", "content.tabs.link"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.51198bba.min.js"></script>
+      
+    
+  </body>
+</html>
