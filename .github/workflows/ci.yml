@@ -17,8 +17,14 @@ jobs:
           python-version: 3.x
       - uses: actions/cache@v2
         with:
-          key: ${{ github.ref }}
-          path: .cache
+          path: |
+            node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
       - run: apt-get install pngquant 
       - run: pip install git+ssh://git@github.com/status-im/mkdocs-material-insiders.git
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
       - run: mkdocs gh-deploy --force
