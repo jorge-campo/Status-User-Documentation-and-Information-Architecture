@@ -1,0 +1,37 @@
+name: ci
+on:
+  push:
+    branches:
+      - master
+      - main
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.x
+      - name: Clear Cache
+        run: |
+          rm -rf node_modules
+          yarn cache clean
+      - uses: actions/cache@v3
+        with:
+          path: |
+            node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Install pngquant
+        run: sudo apt-get update && sudo apt-get install -y pngquant 
+      - run: pip install mkdocs-material
+      - name: Install mkdocs-material dependencies
+        run: |
+          pip install -r requirements.txt
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - run: mkdocs gh-deploy --force
