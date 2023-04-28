@@ -1,6 +1,11 @@
+---
+hide:
+  - navigation
+---
+
 # Document components description
 
-Here is a description of the document components in [this example file](./document-example-with-all-components.md).
+Here is a description of the document components in [this document example](./document-example-with-all-components.md).
 
 | Number | Component name | Component type | Notes |
 |:---|:---|:---|:---|

@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 ![This is an image explanation for screen readers](./media/header.png)
 {==**[01]**==}
 

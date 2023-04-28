@@ -130,6 +130,6 @@ plugins:
 
 # Page tree (for the hamburger menu navigation)
 nav:
-  - Status user docs specification: index.md
-  - Document example with all components: document-example-with-all-components.md
-  - Document components description: document-components-desription.md
+  - Specification: index.md
+  - Document example: document-example-with-all-components.md
+  - Components description: document-components-description.md
