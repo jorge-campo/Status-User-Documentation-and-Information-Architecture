@@ -2,9 +2,9 @@
 
 # Project information
 site_name: 'Status user docs specification'
-site_url: https://help.status.im/
+site_url: https://jorge-campo.github.io/Status-User-Documentation-and-Information-Architecture
 site_author: 'Status Research & Development GmbH'
-site_description: 'Status app user documentation'
+site_description: 'Status user documentation and information architecture'
 
 # Project directories
 docs_dir: './docs/'
@@ -12,7 +12,7 @@ site_dir: './generated/'
 
 # Repository
 repo_name: 'Status user documentation and information architecture'
-repo_url: https://github.com/status-im/help.status.im
+repo_url: https://github.com/jorge-campo/Status-User-Documentation-and-Information-Architecture
 edit_uri: edit/main/docs/
 
 # Copyright
