@@ -1,6 +1,6 @@
 # Document components description
 
-Here you can find a description of the Markdown components in [this example file](./document-example-with-all-components.md).
+Here is a description of the document components in [this example file](./document-example-with-all-components.md).
 
 | Number | Component name | Component type | Notes |
 |:---|:---|:---|:---|
@@ -10,17 +10,18 @@ Here you can find a description of the Markdown components in [this example file
 | **[04]** | Internal link | link | A link to another document in Status Help or another H2 or H3 header in the same document. |
 | **[05]** | Paragraph | text | Paragraphs are limited to a maximum of 60 words. |
 | **[06]** | Sentence | text | Sentences are limited to a maximum of 25 words. |
-| :seven: | Info admonition | admonition | There are three types of admonitions, in order of importance: tip, info, caution. |
-| :eight: | Section title | H2 header | Level-2 headers group the different document sections. These headers appear in regular typeface in the righ-hand table of contents. |
-| :nine: | Code format | code | Outside of procedural steps, we use code-format typeface for certain variables. For example: `Who holds`, `Is allowed to`, or `In`. |
-| :one::zero: | Bullet list | list | We use list to convery different information in an easy to read and scan format. |
-| :one::one: | Tabs | --- | Tabs group information for a particular Status app platform o screen |
-| :one::two: | Interactive UI elements | label | Insider procedural steps, UI elements the user can click or tap use the icon first (if any) and a label name in bold typeface (always). |
-| :one::three: | Second-level bullet lists | list | For steps with multiple options, options are grouped in a second-level bullet lists. We avoid using this element. |
+| **[07]**| Info admonition | admonition | There are three types of admonitions, in order of importance: tip, info, caution. |
+| **[08]** | Section title | H2 header | Level-two headers group the different document sections. These headers appear in regular typeface in the right-hand table of contents. |
+| **[09]** | Code format | code | We use code-format typeface for certain variables to distinguis them from the regular text. For example: `Who holds`, `Is allowed to`, or `In`. |
+| **[10]** | External link | link | A link to an external webiste. The link opens in a new tab and includes a trailing icon to inform readers is an external source. |
+| **[11]** | Bullet list | list | Bullet lists convery relevant topic information. Procedure-type documents use "What to expect" title, while concept-type documents use "The basics" title. |
+| **[12]** | Tabs | tabs | Tabs group information for a particular Status app platform o screen. |
+| **[13]** | Interactive UI elements | UI label | Inside procedural steps, elements the user can click or tap use an icon first (if any) and the label name in bold typeface. |
+| **[14]**: | Second-level bullet lists | list | For steps with multiple options, options are grouped in a second-level bullet lists. This element is rarely used and not recommended. |
 | :one::four: | Procedural steps | numbered lists | Procedures with steps (not tasks) the user should complete in a particular order use numbered lists. We limit the number of steps to six or seven per procedure. |
 | :one::five: | Screenshot | image | Screeshost visually guide users to the proper screen, discribe UI elements or UI interactions with multiple steps. |
 | :one::six: | Tip admonnition | admonition | There are three types of admonitions, in order of importance: tip, info, caution. |
-| :one::seven: | Substeps | H3 header | For procedural steps with more than 6-7 steps, we split the procedrue into subprocedures. H3 is the minimum header level on our docs. |
+| :one::seven: | Substeps | H3 header | For procedural steps with more than 6-7 steps, we split the procedrue into subprocedures. H3 is the minimum header level on our docs. Level-three headers don't appear in the right-hand table of contents. |
 | :one::eight: | Table | table | Table |
 | :one::night: | Legend | text | A short legend explaining the numbers of figures on the table. |
 | :two::zero: | Internal link | A link to anohter part of the same document. Procedural steps never include external links |
