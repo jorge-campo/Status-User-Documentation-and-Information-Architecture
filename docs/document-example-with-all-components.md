@@ -142,7 +142,7 @@ Two ghostly white figures in coveralls and deciphers {==**[25]**==} are softly d
     Bits of moving fluff great turbulent clouds dispassionate extraterrestrial observer the sky calls to us with pretty stories for which there's little good evidence courage of our questions. {==**[27]**==}
 
 ## Common questions
-{==**[27]**==}
+{==**[28]**==}
 
 ### Common question 1
 
